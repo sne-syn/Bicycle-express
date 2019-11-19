@@ -8,8 +8,3 @@ Bicycle Express is a website for local repair service that helps to get the righ
 * SASS preprocessor
 * Gulp
 * BEM methodology (Block, Element, Modifier)
-
-## Authors
-
-* **Maryna Syngur** - *Design* 
-* [sne_syn](https://github.com/sne-syn)
