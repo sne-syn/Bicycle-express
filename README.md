@@ -2,12 +2,12 @@
 
 Bicycle Express is a website for local repair service that helps to get the right bike for customers needs or repear it.
 
-## Built With
+## Based on
 
-* HTML, CSS, JavaScript ES5
+* HTML5, CSS, JavaScript ES5
 * SASS preprocessor
 * Gulp
-* Based on the BEM methodology (Block, Element, Modifier)
+* BEM methodology (Block, Element, Modifier)
 
 ## Authors
 
