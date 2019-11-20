@@ -1,8 +1,16 @@
 @import "abstracts/mixins";
-@import "variables/mixins";
+@import "abstracts/variables";
 @import "base/color";
 @import "base/typography";
 @import "base/reset";
+@import "components/buttons";
+@import "components/cards";
+@import "components/filter";
+@import "components/navigation";
+@import "layout/footer";
+@import "layout/grid";
+@import "layout/header";
+@import "layout/sidebar";
 @import "pages/catalog";
 @import "pages/contact";
 @import "pages/demo";

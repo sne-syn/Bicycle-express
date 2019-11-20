@@ -15,13 +15,12 @@ body {
   min-width: 320px;
   font-size: 15px;
   line-height: 30px;
-  font-family: --text-font-family;
+  font-family: var(--text-font-family);
   font-style: normal;
-  color:   --white-color;
-
+  color: var(--white-color);
 }
 
-@media (min-width: --tablet-width) {
+@media (min-width: var(--tablet-width)) {
   body {
     font-size: 17px;
   }
