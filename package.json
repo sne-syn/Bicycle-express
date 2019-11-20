@@ -1,17 +1,27 @@
 {
   "name": "bicycle_express",
   "version": "1.0.0",
-  "private": true,
-  "description": "",
-  "main": "gulpfile.js",
-  "devDependencies": {
-    "node-sass": "^4.13.0",
+  "description": "Bicycle Express is a website for local repair service that helps to get the right bike for customers needs or repear it.",
+  "main": "index.js",
+  "dependencies": {
     "stylelint-config-standard": "^19.0.0"
   },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "stylelint": "^12.0.0",
+    "stylelint-config-htmlacademy": "^0.1.4"
+  },
   "scripts": {
-    "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
-    "compile": "node-sass source/sass/main.scss source/css/style.css -w"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sne-syn/Bicycle-express.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sne-syn/Bicycle-express/issues"
+  },
+  "homepage": "https://github.com/sne-syn/Bicycle-express#readme"
 }
