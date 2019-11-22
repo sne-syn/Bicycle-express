@@ -1,0 +1,194 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  font-size: 18px;
+  font-style: normal;
+  font-family: "Roboto Slab", "Open Sans", serif;
+  color: #8a0001; }
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    body {
+      overflow-x: hidden; } }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.visually-hidden,
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
+
+.about-us {
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #fbf6eb; }
+
+.about-us__heading {
+  margin: 0;
+  padding-top: 20px;
+  text-align: center; }
+
+.heading {
+  padding-top: 150px;
+  min-height: 333px;
+  background-image: url("../img/heading-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #73ac82; }
+
+.heading__text {
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+  background-color: rgba(112, 171, 129, 0.5); }
+
+.heading__text--hidden {
+  display: none; }
+
+.main-nav {
+  position: relative;
+  width: auto;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: #8a0001; }
+
+.main-nav__toggle {
+  position: relative;
+  left: 20px;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none; }
+
+.main-nav--closed .main-nav__toggle::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 25px;
+  height: 2px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 5px 0 0 #ffffff, 0 10px 0 0 #ffffff;
+          box-shadow: 0 5px 0 0 #ffffff, 0 10px 0 0 #ffffff; }
+
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.main-nav--opened .main-nav__toggle {
+  top: -53px;
+  right: 28px; }
+  .main-nav--opened .main-nav__toggle::before, .main-nav--opened .main-nav__toggle::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 20px;
+    height: 2px;
+    background-color: #221f1f; }
+  .main-nav--opened .main-nav__toggle::before {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+  .main-nav--opened .main-nav__toggle::after {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg); }
+
+.main-nav--closed .menu__item,
+.user-menu--closed .user-menu__item {
+  display: none; }
+
+.main-nav--opened .menu__item,
+.user-menu--opened .user-menu__item {
+  display: block; }
+
+.menu {
+  margin: 0;
+  padding: 0; }
+
+.search-form {
+  position: absolute;
+  top: 2px;
+  right: 20px;
+  height: 20px;
+  background-color: #ffffff; }
+
+.search-form__input {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: #aaaaaa; }
+
+.search-form__btn {
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.header {
+  width: auto;
+  background-color: #ffffff;
+  border-bottom: 1px solid #8a0001; }
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px; }
+
+.header__logo-link {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.header__logoname {
+  margin: 0;
+  padding: 0;
+  padding-top: 45px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.header__adress {
+  width: 215px;
+  padding-top: 18px;
+  font-size: 12px;
+  font-style: normal;
+  text-align: left; }
+
+.header__mail {
+  color: #8a0001; }
+
+/*# sourceMappingURL=style.css.map */

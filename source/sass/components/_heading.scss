@@ -1,0 +1,20 @@
+.heading {
+  padding-top: 150px;
+  min-height: 333px;
+  background-image: url("../img/heading-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $color-secondary;
+}
+
+.heading__text {
+  margin: 0;
+
+  color: $color-white;
+  text-align: center;
+  background-color: rgba(112, 171, 129, 0.5);
+}
+
+.heading__text--hidden {
+display: none;
+}

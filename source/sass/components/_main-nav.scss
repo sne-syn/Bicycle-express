@@ -1,0 +1,70 @@
+.main-nav {
+  position: relative;
+  width: auto;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: $color-primary;
+}
+
+.main-nav__toggle {
+  position: relative;
+  left: 20px;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.main-nav--closed .main-nav__toggle::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 25px;
+  height: 2px;
+  background-color: $color-white;
+  box-shadow: 0 5px 0 0 $color-white, 0 10px 0 0 $color-white;
+}
+
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav--opened .main-nav__toggle {
+  top: -53px;
+  right: 28px;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 20px;
+    height: 2px;
+    background-color: #221f1f;
+  }
+
+  &::before {
+    transform: rotate(45deg);
+    box-shadow: none;
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+  }
+}
+
+.main-nav--closed .menu__item,
+.user-menu--closed .user-menu__item {
+  display: none;
+}
+
+.main-nav--opened .menu__item,
+.user-menu--opened .user-menu__item {
+  display: block;
+}

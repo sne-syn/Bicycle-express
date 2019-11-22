@@ -1,4 +1,3 @@
-
 html {
   box-sizing: border-box;
 }
@@ -11,27 +10,23 @@ html {
 
 body {
   position: relative;
-
+  margin: 0;
+  padding: 0;
   min-width: 320px;
-  font-size: 15px;
-  line-height: 30px;
-  font-family: var(--text-font-family);
+  font-size: 18px;
   font-style: normal;
-  color: var(--white-color);
-}
+  font-family: $text-font-family;
+  color: $color-primary;
 
-@media (min-width: var(--tablet-width)) {
-  body {
-    font-size: 17px;
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    overflow-x: hidden;
   }
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 a {
   text-decoration: none;
+}
+
+li {
+  list-style: none;
 }

@@ -1,0 +1,19 @@
+.search-form {
+  position: absolute;
+  top: 2px;
+  right: 20px;
+  height: 20px;
+  background-color: $color-white;
+}
+
+.search-form__input {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: $color-textholder;
+}
+
+.search-form__btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

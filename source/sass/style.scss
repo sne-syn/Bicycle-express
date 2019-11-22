@@ -3,10 +3,16 @@
 @import "base/color";
 @import "base/typography";
 @import "base/reset";
+@import "base/visually-hidden";
+@import "components/about-us";
 @import "components/buttons";
 @import "components/cards";
 @import "components/filter";
-@import "components/navigation";
+@import "components/heading";
+@import "components/main-nav";
+@import "components/menu";
+@import "components/search-form";
+@import "components/table";
 @import "layout/footer";
 @import "layout/grid";
 @import "layout/header";

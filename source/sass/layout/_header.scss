@@ -1,0 +1,38 @@
+.header {
+  width: auto;
+  background-color: $color-white;
+  border-bottom: 1px solid $color-primary;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.header__logo-link {
+  display: inline-flex;
+  align-items: center;
+}
+
+.header__logoname {
+  margin: 0;
+  padding: 0;
+  padding-top: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header__adress {
+  width: 215px;
+  padding-top: 18px;
+  font-size: 12px;
+  font-style: normal;
+  text-align: left;
+}
+
+.header__mail {
+  color: $color-primary;
+}
