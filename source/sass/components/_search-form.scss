@@ -1,19 +1,27 @@
 .search-form {
   position: absolute;
-  top: 2px;
-  right: 20px;
-  height: 20px;
+  top: 6px;
+  right: 25px;
+  height: 15px;
+  width: 100px;
   background-color: $color-white;
 }
 
 .search-form__input {
-  padding-top: 2px;
-  padding-bottom: 2px;
+  box-sizing: border-box;
+  position: absolute;
+  height: 15px;
+  width: 100px;
+  padding: 0;
+  padding-left: 3px;
+  padding-right: 3px;
+  font-size: 10px;
   color: $color-textholder;
+  border: 0;
 }
 
-.search-form__btn {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
+// .search-form__btn {
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+// }

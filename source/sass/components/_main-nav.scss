@@ -1,17 +1,15 @@
 .main-nav {
   position: relative;
   width: auto;
-  padding-top: 3px;
-  padding-bottom: 3px;
   background-color: $color-primary;
 }
 
 .main-nav__toggle {
   position: relative;
-  left: 20px;
+  left: 32px;
   display: block;
-  width: 25px;
-  height: 25px;
+  width: 24px;
+  height: 27px;
   background-color: transparent;
   cursor: pointer;
   border: none;
@@ -20,9 +18,9 @@
 .main-nav--closed .main-nav__toggle::before {
   content: "";
   position: absolute;
-  top: 5px;
+  top: 8px;
   left: 0;
-  width: 25px;
+  width: 24px;
   height: 2px;
   background-color: $color-white;
   box-shadow: 0 5px 0 0 $color-white, 0 10px 0 0 $color-white;

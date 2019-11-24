@@ -1,6 +1,6 @@
 .heading {
-  padding-top: 150px;
-  min-height: 333px;
+  padding-top: 80px;
+  min-height: 250px;
   background-image: url("../img/heading-photo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,12 +9,18 @@
 
 .heading__text {
   margin: 0;
-
+  padding-top: 10px;
+  padding-bottom: 8px;
   color: $color-white;
   text-align: center;
+  font-family: $header-font-family;
+  font-weight: 900;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   background-color: rgba(112, 171, 129, 0.5);
 }
 
 .heading__text--hidden {
-display: none;
+  display: none;
 }
