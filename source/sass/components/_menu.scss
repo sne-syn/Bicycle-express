@@ -1,7 +1,6 @@
 .menu {
   margin: 0;
   padding: 0;
-  padding-top: 10px;
 }
 
 .menu__item {
@@ -24,4 +23,8 @@
   &:hover {
     color: $color-menu-hover;
   }
+}
+
+.menu.menu--opened {
+  padding-top: 10px;
 }

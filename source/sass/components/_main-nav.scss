@@ -14,7 +14,6 @@
   background-color: transparent;
   cursor: pointer;
   border: none;
-  outline: $color-white;
 }
 
 .main-nav--closed .main-nav__toggle::before {
@@ -34,8 +33,8 @@
   list-style: none;
 }
 
-.main-nav .main-nav--opened {
-  padding-bottom: 0;
+.main-nav.main-nav--opened.main-nav--closed {
+  padding-bottom: 0px;
 }
 
 .main-nav--opened .main-nav__toggle {
