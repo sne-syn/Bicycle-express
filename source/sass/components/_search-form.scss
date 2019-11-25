@@ -1,8 +1,8 @@
 .search-form {
   position: absolute;
-  top: 6px;
+  top: 15px;
   right: 25px;
-  height: 15px;
+  height: 17px;
   width: 100px;
   background-color: $color-white;
 }
@@ -12,13 +12,15 @@
   position: absolute;
   height: 15px;
   width: 100px;
-  padding: 0;
-  padding-left: 3px;
-  padding-right: 3px;
+  padding: 0 3px;
   font-size: 10px;
-  color: $color-textholder;
   border: 0;
 }
+
+
+.search-form__input::placeholder  {
+  color: $color-placeholder;
+ }
 
 // .search-form__btn {
 //   position: absolute;

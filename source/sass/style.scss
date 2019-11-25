@@ -1,6 +1,7 @@
 @import "abstracts/mixins";
 @import "abstracts/variables";
 @import "base/color";
+@import "base/js";
 @import "base/typography";
 @import "base/reset";
 @import "base/visually-hidden";
@@ -12,7 +13,10 @@
 @import "components/main-nav";
 @import "components/menu";
 @import "components/search-form";
+@import "components/social";
+@import "components/subscribe";
 @import "components/table";
+@import "components/timetable";
 @import "layout/footer";
 @import "layout/grid";
 @import "layout/header";

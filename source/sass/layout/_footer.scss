@@ -1,0 +1,15 @@
+.footer {
+  padding: 12px 30px;
+  background-color: $color-primary;
+}
+
+.footer__contact {
+  display: none;
+}
+
+.footer__copyright {
+  font-size: 8px;
+  line-height: 1.5;
+  font-style: normal;
+  color: $color-white;
+}

@@ -1,11 +1,15 @@
 .about-us {
-  padding-right: 10px;
-  padding-left: 10px;
+  padding: 10px 30px;
   background-color: $color-tertiary;
 }
 
 .about-us__heading {
-  margin: 0;
-  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
   text-align: center;
+}
+
+.about-us__text {
+  margin-bottom: 20px;
+  font-size: 14px;
 }

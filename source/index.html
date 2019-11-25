@@ -29,7 +29,7 @@
   </header>
   <nav class="main-nav main-nav--nojs main-nav--closed">
     <button class="main-nav__toggle" type="button"><span class="visually-hidden">Menu</span></button>
-    <ul class="menu">
+    <ul class="menu menu--closed">
       <li class="menu__item menu__item--services">
         <a class="menu__link" href="services.html">Services</a>
       </li>
@@ -53,7 +53,7 @@
   </nav>
   <main>
     <div class="heading">
-      <h1 class="heading__text">Your Local Repair <span class ="heading__text--hidden">Shop</span></h1>
+      <h1 class="heading__text">Your Local Repair <span class ="heading__text heading__text--hidden">Shop</span></h1>
     </div>
     <section class="about-us">
       <h2 class="about-us__heading">About Us</h2>
@@ -83,37 +83,36 @@
     <section class="subscribe">
       <h3 class="subscribe__title">Subscribe</h3>
       <form class="subscribe-form">
-        <input class="subscribe-form__input" type="text" placeholder="Your Email Address">
-        <button type="submit" class="subscribe-form__btn">Sign Up</button>
-        <p class="subscribe__promo">Recieve emails with exlusive offers, events and more.</p>
+        <input class="subscribe-form__input" type="text" placeholder="Your Email Address"><button type="submit" class="subscribe-form__btn">Sign Up</button>
       </form>
+      <p class="subscribe__promo">Recieve emails with exlusive offers, events and more.</p>
     </section>
   </main>
   <footer class="footer">
     <ul class="social">
       <li class="social__item social__item--facebook">
         <a href="#">
-          <span class="visually-hidden">Facebook</span>
+          <span class="visually-hiddefn">Facebook</span>
         </a>
       </li>
       <!-- Что это за иконка? -->
       <li class="social__item social__item--icon">
         <a href="#">
-          <span class="visually-hidden">Icon</span>
+          <span class="visually-hiddenk">Icon</span>
         </a>
       </li>
       <li class="social__item social__item--twitter">
         <a href="#">
-          <span class="visually-hidden">Twitter</span>
+          <span class="visually-hiddenl">Twitter</span>
         </a>
       </li>
       <li class="social__item social__item--instagram">
         <a href="#">
-          <span class="visually-hidden">Instagram</span>
+          <span class="visually-hiddenk">Instagram</span>
         </a>
       </li>
     </ul>
-    <div class="copyright">©2018 by Bicycle Express.</div>
+    <div class="footer__copyright">©2018 by Bicycle Express.</div>
     <section class="footer__contact">
       <h4 class="footer__heading">Contact</h4>
       <p class="footer__text">
@@ -122,8 +121,8 @@
         (408) 998-1618
       </p>
     </section>
-    <table class="opening-hours table">
-      <caption class="opening-hours__heading table__heading">Hours</caption>
+    <table class="timetable table">
+      <caption class="timetable__heading table__heading">Hours</caption>
       <tr class="table__row">
         <th class="table__header">Tuesday - Friday</th>
         <td class="table__cell">10:30 am - 7 pm
@@ -147,7 +146,7 @@
     <button class="modal__close" title="Close" type="button">Close</button>
     <div class="modal__overlay"></div>
   </section>
-
+  <script src="js/menu.js"></script>
 </body>
 
 </html>

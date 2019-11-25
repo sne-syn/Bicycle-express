@@ -1,0 +1,10 @@
+.social {
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.social__item a {
+  color: $color-white;
+  padding-right: 5px;
+}
