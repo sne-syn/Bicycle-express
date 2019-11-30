@@ -203,7 +203,7 @@ li {
           box-shadow: 0 5px 10px 0 rgba(0, 1, 1, 0.25); }
 
 .modal {
-  display: block; }
+  display: none; }
 
 .modal--show {
   display: block; }
