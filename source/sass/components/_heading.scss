@@ -1,8 +1,11 @@
 .heading {
+  box-sizing: content-box;
+  margin: 0 auto;
   padding-top: 80px;
   min-height: 250px;
   background-image: url("../img/heading-photo.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   background-color: $color-secondary;
 }

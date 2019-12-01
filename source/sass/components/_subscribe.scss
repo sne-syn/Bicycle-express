@@ -15,9 +15,10 @@
 .subscribe-form__input {
   display: inline-block;
   vertical-align: middle;
-  padding: 2px 15px;
+  padding: 4px 15px;
   width: 235px;
   font-size: 13px;
+  border: none;
 }
 
 .subscribe-form__input::placeholder {
@@ -32,6 +33,15 @@
   color: $color-white;
   background-color: $color-primary;
   border: none;
+
+  &:hover {
+    background-color: $color-primary-hover;
+  }
+
+  &:active {
+    background-color: $color-primary-active;
+    outline: none;
+  }
 }
 
 .subscribe__promo {

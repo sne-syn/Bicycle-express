@@ -10,7 +10,11 @@
 
   &:hover {
     color: $color-menu-hover;
-    background-color: $color-hover-primary;
+    background-color: $color-primary-hover;
+  }
+
+  &:active {
+    background-color: $color-primary-active;
   }
 }
 
