@@ -13,3 +13,31 @@
   margin-bottom: 20px;
   font-size: 14px;
 }
+
+@media (min-width: 580px) {
+  .about-us {
+    padding: 30px 0;
+  }
+
+  .about-us__heading {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 18px;
+    padding-bottom: 14px;
+  }
+
+  .about-us__text {
+    width: 74%;
+    margin: 0 auto;
+    padding-left: 15px;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 13px;
+  }
+
+  .about-us__table.table {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+}

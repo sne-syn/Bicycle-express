@@ -24,6 +24,30 @@
   background-color: rgba(112, 171, 129, 0.5);
 }
 
-.heading__text--hidden {
+.heading__text-hidden {
   display: none;
+}
+
+@media (min-width: 500px) {
+  .heading__text-hidden {
+    display: inline-block;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .heading {
+    padding-top: 184px;
+    min-height: 456px;
+    background-size: cover;
+    background-position-y: -42px;
+  }
+
+  .heading__text {
+    margin: 0 auto;
+    padding-top: 11px;
+    padding-bottom: 16px;
+    font-size: 37px;
+    letter-spacing: 1.2px;
+  }
+
 }

@@ -74,14 +74,19 @@
 
 @media (min-width: $tablet-width) {
   .main-nav {
-    padding: 0;
+    padding: 2px 0;
+  }
+
+  .main-nav__container {
+    position: relative;
+    width: 90%;
+    margin-left: 6%;
   }
 
   .main-nav__toggle {
     width: 48px;
     height: 40px;
     margin: 0;
-    margin-left: 46px;
   }
 
   .main-nav--closed .main-nav__toggle::before {
@@ -93,7 +98,6 @@
   }
 
   .main-nav--opened .main-nav__toggle {
-
     &::before,
     &::after {
       top: 18px;
