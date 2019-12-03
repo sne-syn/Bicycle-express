@@ -4,6 +4,10 @@
   justify-content: flex-start;
 }
 
+.social__item {
+  list-style: none;
+}
+
 .social__item a {
   font-size: 8px;
   color: $color-white;

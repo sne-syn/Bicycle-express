@@ -6,7 +6,8 @@
   <title>Bicycle express</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:900|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet">
 
   <link href="css/style.css" rel="stylesheet">
 </head>
@@ -15,8 +16,11 @@
   <header class="header">
     <div class="header__container">
       <div class="header__logo-link">
-        <img class="header__logo-image" src="img/logo-mobile.jpg" width="49" height="42"
-          alt="Bicycle Express local repair shop">
+          <picture>
+              <source media="(min-width: 763px)" srcset="img/logo-tablet.jpg">
+                <img class="header__logo-image" src="img/logo-mobile.jpg" width="49" height="42"
+                alt="Bicycle Express local repair shop">
+            </picture>
 
         <p class="header__logoname">Bicycle Express</p>
       </div>
@@ -31,19 +35,19 @@
       <button class="main-nav__toggle" type="button"><span class="visually-hidden">Menu</span></button>
       <ul class="menu menu--closed">
         <li class="menu__item menu__item--services">
-          <a class="menu__link" href="services.html">Services</a>
+          <a class="menu__link" href="services.html"><span class="menu__text">Services</span></a>
         </li>
         <li class="menu__item menu__item--shop">
-          <a class="menu__link" href="shop.html">Shop</a>
+          <a class="menu__link" href="shop.html"><span class="menu__text">Shop</span></a>
         </li>
         <li class="menu__item menu__item--demo">
-          <a class="menu__link" href="demo.html">Demo</a>
+          <a class="menu__link" href="demo.html"><span class="menu__text">Demo</span></a>
         </li>
         <li class="menu__item menu__item--contact">
-          <a class="menu__link" href="contact.html">Contact Us</a>
+          <a class="menu__link" href="contact.html"><span class="menu__text">Contact Us</span></a>
         </li>
         <li class="menu__item menu__item--events">
-          <a class="menu__link" href="events.html">Events</a>
+          <a class="menu__link" href="events.html"><span class="menu__text">Events</span></a>
         </li>
       </ul>
       <form class="search-form">
@@ -99,7 +103,7 @@
       </li>
       <li class="social__item social__item--icon">
         <a href="#">
-          <span class="visually-hiddenf">Icon</span>
+          <span class="visually-hiddenf">Yelp</span>
         </a>
       </li>
       <li class="social__item social__item--twitter">

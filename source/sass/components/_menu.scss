@@ -4,9 +4,9 @@
 }
 
 .menu__item {
-  width: 100%;
   padding: 10px 30px;
   text-align: center;
+  list-style: none;
 
   &:hover {
     color: $color-menu-hover;
@@ -19,16 +19,42 @@
 }
 
 .menu__link {
-  width: 100%;
-  font-size: 18px;
-  letter-spacing: 1.7px;
-  color: $color-white;
+  display: block;
+  width: 320px;
+  margin: 0 auto;
 
-  &:hover {
+  &:hover .menu__text {
     color: $color-menu-hover;
   }
 }
 
+.menu__text {
+  font-size: 18px;
+  letter-spacing: 1.7px;
+  color: $color-white;
+}
+
 .menu.menu--opened {
   padding-top: 10px;
+}
+
+@media (min-width: $tablet-width) {
+  .menu__item {
+    padding: 15px 30px;
+  }
+
+  .menu__link {
+    display: block;
+    margin: 0 auto;
+
+    &:hover .menu__text {
+      color: $color-menu-hover;
+    }
+  }
+
+  .menu__text {
+    font-size: 18px;
+    letter-spacing: 1.7px;
+    color: $color-white;
+  }
 }
