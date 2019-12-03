@@ -1,7 +1,7 @@
 .search-form {
   position: absolute;
   top: 15px;
-  right: 31px;
+  right: 15px;
   height: 17px;
   width: 110px;
   background-color: $color-white;
@@ -63,5 +63,43 @@
   &:active,
   &:focus {
     outline: none;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .search-form {
+    top: 13px;
+    right: 21px;
+    height: 14px;
+    width: 145px;
+  }
+
+  .search-form__input {
+    height: 14px;
+    padding: 0 21px 0 8px;
+    font-size: 12px;
+  }
+
+  .search-form__btn {
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 14px;
+
+    &::before {
+      top: 2px;
+      right: 13px;
+      width: 7px;
+      height: 7px;
+    }
+
+    &::after {
+      top: 6px;
+      right: 10px;
+      width: 1px;
+      height: 6px;
+      transform: rotate(-57deg);
+    }
+
   }
 }
