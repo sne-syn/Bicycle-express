@@ -55,7 +55,7 @@
     right: 4px;
     width: 2px;
     height: 6px;
-    background-color:$color-placeholder;
+    background-color: $color-placeholder;
     border: 1px solid $color-placeholder;
     transform: rotate(-65deg);
   }
@@ -66,17 +66,23 @@
   }
 }
 
-@media (min-width: $tablet-width) {
+@media (min-width: $width-XXS) {
   .search-form {
-    top: 15px;
-    right: 35px;
+    width: 140px;
+  }
+}
+
+@media (min-width: $width-S) {
+  .search-form {
+    top: 14px;
+    right: 36px;
     height: 14px;
     width: 145px;
   }
 
   .search-form__input {
     height: 14px;
-    padding: 0 21px 0 8px;
+    padding: 0 21px 0 6px;
     font-size: 12px;
   }
 

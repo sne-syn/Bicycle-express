@@ -30,7 +30,7 @@ body {
     body {
       overflow-x: hidden; } }
 
-@media (min-width: 763px) {
+@media (min-width: 768px) {
   body {
     font-size: 17px; } }
 
@@ -64,23 +64,26 @@ a {
   margin-bottom: 20px;
   font-size: 14px; }
 
-@media (min-width: 580px) {
+.about-us__img {
+  display: none; }
+
+@media (min-width: 600px) {
   .about-us {
-    padding: 30px 0; }
+    padding: 18px 0 32px; }
   .about-us__heading {
-    width: 75%;
-    margin: 0 auto;
-    font-size: 18px;
-    padding-bottom: 14px; }
+    width: 98%;
+    margin-bottom: 8px;
+    padding-bottom: 0;
+    font-size: 18px; }
   .about-us__text {
-    width: 74%;
-    margin: 0 auto;
-    padding-left: 15px;
+    width: 98%;
+    margin: 0;
+    padding: 4px calc(50% - 335px) 8px calc(50% - 282px);
     font-size: 15px;
     line-height: 1.5;
-    margin-bottom: 13px; }
+    margin-bottom: 6px; }
   .about-us__table.table {
-    width: 50%;
+    width: 48%;
     margin: 0 auto; } }
 
 .heading {
@@ -114,28 +117,34 @@ a {
   .heading__text-hidden {
     display: inline-block; } }
 
-@media (min-width: 763px) {
+@media (min-width: 600px) {
   .heading {
-    padding-top: 184px;
-    min-height: 456px;
+    padding-top: 150px;
+    min-height: 400px; }
+  .heading__text {
+    font-size: 28px; } }
+
+@media (min-width: 768px) {
+  .heading {
+    padding-top: 185px;
+    min-height: 455px;
     background-size: cover;
     background-position-y: -42px; }
   .heading__text {
     margin: 0 auto;
     padding-top: 11px;
-    padding-bottom: 16px;
+    padding-bottom: 15px;
     font-size: 37px;
     letter-spacing: 1.2px; } }
 
 .main-nav {
   position: relative;
-  width: auto;
-  padding: 10px 0;
+  padding: 10px 8px 5px 20px;
   background-color: #8a0001; }
 
 .main-nav__toggle {
   position: relative;
-  left: 32px;
+  left: 12px;
   display: block;
   width: 24px;
   height: 27px;
@@ -190,20 +199,17 @@ a {
 .user-menu--opened .user-menu__item {
   display: block; }
 
-@media (min-width: 763px) {
+@media (min-width: 768px) {
   .main-nav {
-    padding: 2px 0; }
-  .main-nav__container {
-    position: relative;
-    width: 90%;
-    margin-left: 6%; }
+    padding: 0 calc(50% - 350px); }
   .main-nav__toggle {
     width: 48px;
-    height: 40px;
-    margin: 0; }
+    height: 42px;
+    margin: 0;
+    margin-left: 37px; }
   .main-nav--closed .main-nav__toggle::before {
-    top: 9px;
-    left: 1px;
+    top: 11px;
+    left: 0;
     width: 46px;
     height: 4px;
     -webkit-box-shadow: 0 9px 0 0 #ffffff, 0 18px 0 0 #ffffff;
@@ -215,6 +221,14 @@ a {
   .main-nav--opened .main-nav__toggle::before {
     -webkit-box-shadow: none;
             box-shadow: none; } }
+
+@media (min-width: 992px) {
+  .main-nav {
+    padding: 0 calc(50% - 480px); } }
+
+@media (min-width: 1150px) {
+  .main-nav {
+    padding: 0 calc(50% - 590px); } }
 
 .menu {
   margin: 0;
@@ -245,7 +259,7 @@ a {
 .menu.menu--opened {
   padding-top: 10px; }
 
-@media (min-width: 763px) {
+@media (min-width: 768px) {
   .menu__item {
     padding: 15px 30px; }
   .menu__link {
@@ -413,15 +427,19 @@ a {
   .search-form__btn:active, .search-form__btn:focus {
     outline: none; }
 
-@media (min-width: 763px) {
+@media (min-width: 500px) {
   .search-form {
-    top: 15px;
-    right: 35px;
+    width: 140px; } }
+
+@media (min-width: 768px) {
+  .search-form {
+    top: 14px;
+    right: 36px;
     height: 14px;
     width: 145px; }
   .search-form__input {
     height: 14px;
-    padding: 0 21px 0 8px;
+    padding: 0 21px 0 6px;
     font-size: 12px; }
   .search-form__btn {
     top: 0;
@@ -535,7 +553,7 @@ a {
           order: -1;
   padding-bottom: 10px; }
 
-@media (min-width: 580px) {
+@media (min-width: 600px) {
   .table__body {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -555,7 +573,7 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-bottom: 2px;
+    padding-bottom: 0;
     font-size: 12px; }
   .table__header {
     font-weight: 400; }
@@ -571,8 +589,7 @@ a {
 
 .footer {
   margin: 0;
-  min-height: 100%;
-  padding: 12px 30px;
+  padding: 10px 20px;
   background-color: #8a0001; }
 
 .footer__contact {
@@ -585,21 +602,13 @@ a {
   color: #ffffff; }
 
 .header {
-  width: auto;
-  margin: 0;
-  padding: 0; }
-
-.header__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-left: 20px;
-  padding-right: 10px;
-  padding-top: 9px;
-  padding-bottom: 10px; }
+  padding: 10px 8px 5px 20px; }
 
 .header__logo-link {
   display: -webkit-inline-box;
@@ -611,15 +620,18 @@ a {
 
 .header__logoname {
   padding-left: 8px;
-  padding-top: 12px;
-  font-size: 10px;
+  padding-top: 5px;
+  font-size: 9px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.4px; }
 
 .header__adress {
-  width: 123px;
-  font-size: 8px;
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+  width: 121px;
+  font-size: 7px;
   line-height: 1.5;
   font-style: normal;
   text-align: left; }
@@ -627,35 +639,48 @@ a {
 .header__mail {
   color: #8a0001; }
 
-@media (min-width: 763px) {
-  .header__container {
-    width: 90%;
-    margin-left: 6%;
-    padding-right: 0;
-    padding-top: 15px;
-    padding-bottom: 9px; }
+@media (min-width: 500px) {
+  .header {
+    padding: 10px 18px 5px 20px; }
+  .header__logoname {
+    font-size: 10px; }
+  .header__adress {
+    width: 140px;
+    font-size: 8px; } }
+
+@media (min-width: 768px) {
+  .header {
+    padding: 4px calc(50% - 350px) 8px; }
   .header__logo-link {
-    width: 37%;
-    padding-left: 8px; }
+    width: 275px;
+    padding-left: 40px; }
   .header__logo-link picture {
-    width: 34%;
+    width: 81px;
     margin: 0;
     padding: 0; }
   .header__logo-image {
     width: 100%;
-    height: 100%; }
+    height: 73px; }
   .header__logoname {
     margin: 0;
     padding-left: 20px;
-    padding-top: 1px;
+    padding-top: 0;
     font-size: 14px;
     font-weight: 700; }
   .header__adress {
-    width: 28%;
+    width: 185px;
     margin: 0;
-    margin-top: 7px;
+    padding-top: 7px;
     font-size: 11px;
     line-height: 1.7;
     letter-spacing: -0.2px; } }
+
+@media (min-width: 992px) {
+  .header {
+    padding: 0 calc(50% - 480px); } }
+
+@media (min-width: 1150px) {
+  .header {
+    padding: 0 calc(50% - 700px); } }
 
 /*# sourceMappingURL=style.css.map */

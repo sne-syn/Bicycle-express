@@ -14,29 +14,33 @@
   font-size: 14px;
 }
 
-@media (min-width: 580px) {
+.about-us__img {
+  display: none;
+}
+
+@media (min-width: $width-XS) {
   .about-us {
-    padding: 30px 0;
+    padding: 18px 0 32px;
   }
 
   .about-us__heading {
-    width: 75%;
-    margin: 0 auto;
+    width: 98%;
+    margin-bottom: 8px;
+    padding-bottom: 0;
     font-size: 18px;
-    padding-bottom: 14px;
   }
 
   .about-us__text {
-    width: 74%;
-    margin: 0 auto;
-    padding-left: 15px;
+    width: 98%;
+    margin: 0;
+    padding: 4px calc(50% - 335px) 8px calc(50% - 282px);
     font-size: 15px;
     line-height: 1.5;
-    margin-bottom: 13px;
+    margin-bottom: 6px;
   }
 
   .about-us__table.table {
-    width: 50%;
+    width: 48%;
     margin: 0 auto;
   }
 

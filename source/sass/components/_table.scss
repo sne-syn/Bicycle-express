@@ -19,7 +19,7 @@
   padding-bottom: 10px;
 }
 
-@media (min-width: 580px) {
+@media (min-width: $width-XS) {
   .table__body {
     display: flex;
     flex-direction: row;
@@ -29,7 +29,7 @@
   .table__row {
     display: flex;
     flex-direction: column;
-    padding-bottom: 2px;
+    padding-bottom: 0;
     font-size: 12px;
   }
 

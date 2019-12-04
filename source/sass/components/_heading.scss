@@ -28,16 +28,27 @@
   display: none;
 }
 
-@media (min-width: 500px) {
+@media (min-width: $width-XXS) {
   .heading__text-hidden {
     display: inline-block;
   }
 }
 
-@media (min-width: $tablet-width) {
+@media (min-width: $width-XS) {
   .heading {
-    padding-top: 184px;
-    min-height: 456px;
+    padding-top: 150px;
+    min-height: 400px;
+  }
+
+  .heading__text {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: $width-S) {
+  .heading {
+    padding-top: 185px;
+    min-height: 455px;
     background-size: cover;
     background-position-y: -42px;
   }
@@ -45,7 +56,7 @@
   .heading__text {
     margin: 0 auto;
     padding-top: 11px;
-    padding-bottom: 16px;
+    padding-bottom: 15px;
     font-size: 37px;
     letter-spacing: 1.2px;
   }
