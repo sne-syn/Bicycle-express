@@ -2,6 +2,7 @@
   padding: 15px 30px;
   padding-bottom: 10px;
   font-size: 15px;
+
   background-color: $color-secondary;
 }
 
@@ -22,6 +23,7 @@
 }
 
 .subscribe-form__input::placeholder {
+  font-family: $text-font-family;
   color: $color-placeholder;
 }
 
@@ -31,6 +33,7 @@
   padding: 5px 15px;
   padding-top: 6px;
   color: $color-white;
+  font-family: $text-font-family;
   background-color: $color-primary;
   border: none;
 
@@ -47,4 +50,36 @@
 .subscribe__promo {
   font-size: 13px;
   color: $color-white;
+}
+
+@media (min-width: $screen-width-S) {
+  .subscribe {
+    padding: 14px calc(50% - 335px) 4px calc(50% - 304px);
+  }
+
+  .subscribe__title {
+    padding-bottom: 6px;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+
+  .subscribe-form__input {
+    padding: 7px 7px 6px;
+    width: 338px;
+  }
+
+  .subscribe-form__input::placeholder {
+    font-size: 17px;
+  }
+
+  .subscribe-form__btn {
+    font-size: 17px;
+    padding: 1px 8px 5px 6px;
+  }
+
+  .subscribe__promo {
+    margin-top: 11px;
+    font-size: 15px;
+  }
 }

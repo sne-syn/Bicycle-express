@@ -71,7 +71,7 @@
   display: block;
 }
 
-@media (min-width: $width-S) {
+@media (min-width: $screen-width-S) {
   .main-nav {
     padding: 0 calc(50% - 350px);
   }
@@ -106,13 +106,13 @@
   }
 }
 
-@media (min-width: $width-M) {
+@media (min-width: $screen-width-M) {
   .main-nav  {
     padding: 0 calc(50% - 480px);
   }
 }
 
-@media (min-width: $width-L){
+@media (min-width: $screen-width-L){
   .main-nav  {
     padding: 0 calc(50% - 590px);
   }

@@ -66,18 +66,18 @@
   }
 }
 
-@media (min-width: $width-XXS) {
+@media (min-width: $screen-width-XXS) {
   .search-form {
     width: 140px;
   }
 }
 
-@media (min-width: $width-S) {
+@media (min-width: $screen-width-S) {
   .search-form {
     top: 14px;
-    right: 36px;
+    right: calc(50% - 348px);
     height: 14px;
-    width: 145px;
+    width: 146px;
   }
 
   .search-form__input {

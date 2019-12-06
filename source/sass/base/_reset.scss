@@ -23,7 +23,7 @@ body {
   }
 }
 
-@media (min-width: $width-S) {
+@media (min-width: $screen-width-S) {
   body {
     font-size: 17px;
   }

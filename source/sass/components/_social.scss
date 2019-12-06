@@ -13,3 +13,9 @@
   color: $color-white;
   padding-right: 5px;
 }
+
+@media (min-width: $screen-width-S) {
+  .social {
+    padding: 0;
+  }
+}

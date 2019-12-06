@@ -18,14 +18,14 @@
   display: none;
 }
 
-@media (min-width: $width-XS) {
+@media (min-width: $screen-width-XS) {
   .about-us {
     padding: 18px 0 32px;
   }
 
   .about-us__heading {
     width: 98%;
-    margin-bottom: 8px;
+    margin-bottom: 27px;
     padding-bottom: 0;
     font-size: 18px;
   }
@@ -36,12 +36,12 @@
     padding: 4px calc(50% - 335px) 8px calc(50% - 282px);
     font-size: 15px;
     line-height: 1.5;
-    margin-bottom: 6px;
+    letter-spacing: 0.1px;
+    margin-bottom: 26px;
   }
 
   .about-us__table.table {
     width: 48%;
     margin: 0 auto;
   }
-
 }

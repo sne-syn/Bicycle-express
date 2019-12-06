@@ -14,3 +14,13 @@
   font-style: normal;
   color: $color-white;
 }
+
+@media (min-width: $screen-width-S) {
+  .footer {
+    padding: 14px calc(50% - 335px) 4px calc(50% - 304px);
+  }
+  
+  .footer__copyright {
+    display: none;
+  }
+}

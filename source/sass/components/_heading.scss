@@ -28,13 +28,13 @@
   display: none;
 }
 
-@media (min-width: $width-XXS) {
+@media (min-width: $screen-width-XXS) {
   .heading__text-hidden {
     display: inline-block;
   }
 }
 
-@media (min-width: $width-XS) {
+@media (min-width: $screen-width-XS) {
   .heading {
     padding-top: 150px;
     min-height: 400px;
@@ -45,7 +45,7 @@
   }
 }
 
-@media (min-width: $width-S) {
+@media (min-width: $screen-width-S) {
   .heading {
     padding-top: 185px;
     min-height: 455px;
