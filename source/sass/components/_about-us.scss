@@ -54,3 +54,22 @@
     padding-bottom: 32px;
   }
 }
+
+@media (min-width: $screen-width-M) {
+  .about-us {
+    margin: 0;
+    padding: 0 calc(50vw - 480px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about-us__right {
+    padding: 40px 40px;
+  }
+
+  .about-us__img {
+    display: block;
+    width: 300px;
+  }
+}

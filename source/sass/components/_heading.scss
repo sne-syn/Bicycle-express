@@ -60,5 +60,13 @@
     font-size: 37px;
     letter-spacing: 1.2px;
   }
+}
 
+@media (min-width: $screen-width-M) {
+  .heading {
+    padding-top: 221px;
+    min-height: 471px;
+    background-size: cover;
+    background-position-y: -180px;
+  }
 }
