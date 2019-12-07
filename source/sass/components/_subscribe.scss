@@ -52,7 +52,7 @@
   color: $color-white;
 }
 
-@media (min-width: $screen-width-XS){
+@media (min-width: $screen-width-XS) {
   .subscribe {
     padding: 0 calc(50vw - 270px);
     padding-top: 10px;
@@ -91,5 +91,22 @@
   .subscribe__promo {
     margin-top: 11px;
     font-size: 15px;
+  }
+}
+
+@media (min-width: $screen-width-M) {
+  .subscribe {
+    margin: 0;
+    padding: 0 calc(50vw - 480px);
+    padding-top: 14px;
+    padding-bottom: 4px;
+  }
+}
+
+@media (min-width: $screen-width-L){
+  .subscribe {
+    padding: 0 calc(50vw - 590px);
+    padding-top: 14px;
+    padding-bottom: 4px;
   }
 }

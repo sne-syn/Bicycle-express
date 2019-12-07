@@ -66,7 +66,7 @@
   }
 }
 
-@media (min-width: $screen-width-XXS) {
+@media (min-width: $screen-width-XS) {
   .search-form {
     width: 140px;
     right: calc(50vw - 270px)
@@ -110,7 +110,7 @@
   }
 }
 
-@media (min-width: $screen-width-S) {
+@media (min-width: $screen-width-M) {
   .search-form {
     right: calc(50% - 470px);
     margin-top: 7px;
