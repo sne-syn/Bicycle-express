@@ -38,8 +38,6 @@
   padding-top: 10px;
 }
 
-
-
 @media (min-width: $screen-width-S) {
   .menu__item {
     padding: 15px 30px;
@@ -62,5 +60,18 @@
 
   .menu.menu--opened {
     padding-top: 4px;
+  }
+}
+
+@media (min-width: $screen-width-M) {
+  .menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .menu__item {
+    width: 120px;
   }
 }
