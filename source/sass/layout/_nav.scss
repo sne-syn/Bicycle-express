@@ -116,7 +116,7 @@
   }
 }
 
-@media (max-width: $burger-width) {
+@media (max-width: $screen-with-burger-width) {
   .nav--closed .menu__item {
     display: none;
   }
@@ -128,13 +128,12 @@
 
 @media (min-width: $screen-width-M) {
   .nav {
-    padding: 0 calc(50% - 480px);
+    padding: 0 calc(50% - 490px);
   }
 
   .nav .nav__toggle {
     display: none;
   }
-
 }
 
 @media (min-width: $screen-width-L) {

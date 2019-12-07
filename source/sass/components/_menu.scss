@@ -65,6 +65,10 @@
 
 @media (min-width: $screen-width-M) {
   .menu {
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    width: 650px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -72,6 +76,25 @@
   }
 
   .menu__item {
-    width: 120px;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 110px;
+  }
+
+  .menu__item a {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 110px;
+    text-align: center;
+  }
+
+  .menu__item.menu__item--contact {
+    width: 130px;
+  }
+
+  .menu__item.menu__item--contact a {
+    width: 130px;
   }
 }

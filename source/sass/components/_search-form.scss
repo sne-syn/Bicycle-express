@@ -109,3 +109,18 @@
 
   }
 }
+
+@media (min-width: $screen-width-S) {
+  .search-form {
+    right: calc(50% - 480px);
+    margin-top: 10px;
+  }
+
+  .search-form__input {
+    width: 175px;
+  }
+  .search-form__btn {
+    top: 2px;
+    right: 0;
+  }
+}
