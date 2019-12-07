@@ -14,7 +14,7 @@
   width: 100%;
   padding: 0 21px 0 5px;
   font-size: 10px;
-  border: 0;
+  border: none;
 }
 
 .search-form__input::placeholder {
@@ -69,25 +69,25 @@
 @media (min-width: $screen-width-XXS) {
   .search-form {
     width: 140px;
+    right: calc(50vw - 270px)
   }
 }
 
 @media (min-width: $screen-width-S) {
   .search-form {
-    top: 14px;
-    right: calc(50% - 348px);
-    height: 14px;
-    width: 146px;
+    top: 12px;
+    right: calc(50vw - 360px);
+    height: 18px;
+    width: 175px;
   }
 
   .search-form__input {
-    height: 14px;
-    padding: 0 21px 0 6px;
-    font-size: 12px;
+    height: 18px;
+    padding: 0px 25px 0 6px;
   }
 
   .search-form__btn {
-    top: 0;
+    top: 2px;
     right: 0;
     width: 20px;
     height: 14px;

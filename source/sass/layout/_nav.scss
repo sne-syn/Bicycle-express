@@ -1,12 +1,12 @@
-.main-nav {
+.nav {
   position: relative;
-  padding: 10px 8px 5px 20px;
+  padding: 10px 0;
   background-color: $color-primary;
 }
 
-.main-nav__toggle {
+.nav__toggle {
   position: relative;
-  left: 12px;
+  left: 30px;
   display: block;
   width: 24px;
   height: 27px;
@@ -15,7 +15,7 @@
   border: none;
 }
 
-.main-nav--closed .main-nav__toggle::before {
+.nav--closed .nav__toggle::before {
   content: "";
   position: absolute;
   top: 8px;
@@ -26,17 +26,17 @@
   box-shadow: 0 5px 0 0 $color-white, 0 10px 0 0 $color-white;
 }
 
-.main-nav__list {
+.nav__list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.main-nav.main-nav--opened.main-nav--closed {
+.nav.nav--opened.nav--closed {
   padding-bottom: 0px;
 }
 
-.main-nav--opened .main-nav__toggle {
+.nav--opened .nav__toggle {
   top: 2px;
   right: 28px;
 
@@ -61,29 +61,39 @@
   }
 }
 
-.main-nav--closed .menu__item,
-.user-menu--closed .user-menu__item {
+.nav--closed .menu__item {
   display: none;
 }
 
-.main-nav--opened .menu__item,
-.user-menu--opened .user-menu__item {
+.nav--opened .menu__item {
   display: block;
 }
 
+@media (min-width: $screen-width-XS) {
+  .nav {
+    padding: 0 calc(50vw - 270px);
+    padding-top: 10px;
+    padding-bottom: 8px;
+  }
+
+  .nav__toggle {
+    left: 13px;
+  }
+}
+
 @media (min-width: $screen-width-S) {
-  .main-nav {
+  .nav {
     padding: 0 calc(50% - 350px);
   }
 
-  .main-nav__toggle {
+  .nav__toggle {
+    left: 5px;
     width: 48px;
     height: 42px;
     margin: 0;
-    margin-left: 37px;
   }
 
-  .main-nav--closed .main-nav__toggle::before {
+  .nav--closed .nav__toggle::before {
     top: 11px;
     left: 0;
     width: 46px;
@@ -91,7 +101,8 @@
     box-shadow: 0 9px 0 0 $color-white, 0 18px 0 0 $color-white;
   }
 
-  .main-nav--opened .main-nav__toggle {
+  .nav--opened .nav__toggle {
+
     &::before,
     &::after {
       top: 18px;
@@ -107,13 +118,13 @@
 }
 
 @media (min-width: $screen-width-M) {
-  .main-nav  {
+  .nav {
     padding: 0 calc(50% - 480px);
   }
 }
 
-@media (min-width: $screen-width-L){
-  .main-nav  {
+@media (min-width: $screen-width-L) {
+  .nav {
     padding: 0 calc(50% - 590px);
   }
 }
