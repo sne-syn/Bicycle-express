@@ -10,7 +10,6 @@
 }
 
 .footer__copyright {
-
   line-height: 1.5;
   font-style: normal;
   color: $color-white;
@@ -47,6 +46,7 @@
     padding: 0 calc(50vw - 480px);
     padding-top: 14px;
     padding-bottom: 14px;
+    font-size: 10px;
   }
 
   .footer__copyright {
@@ -79,5 +79,6 @@
     padding: 0 calc(50vw - 590px);
     padding-top: 14px;
     padding-bottom: 14px;
+    font-size: 12px;
   }
 }

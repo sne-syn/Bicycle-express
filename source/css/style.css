@@ -96,7 +96,8 @@ a {
 @media (min-width: 991.98px) {
   .about-us {
     margin: 0;
-    padding: 0 calc(50vw - 480px);
+    padding: 0;
+    padding-left: calc(50vw - 480px);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -108,13 +109,19 @@ a {
         -ms-flex-pack: justify;
             justify-content: space-between; }
   .about-us__right {
+    width: 85%;
     padding: 40px 40px; }
+  .about-us__heading {
+    font-size: 19px; }
+  .about-us__text {
+    font-size: 17px; }
   .about-us__table.table {
     width: 74%;
     padding-right: 25px; }
   .about-us__img {
     display: block;
-    width: 300px; } }
+    width: 30%;
+    height: auto; } }
 
 .heading {
   display: block;
@@ -223,7 +230,7 @@ a {
     margin: 0;
     padding: 0;
     padding-left: 10px;
-    width: 650px;
+    width: 700px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -239,11 +246,11 @@ a {
   .menu__item {
     margin: 0;
     padding: 0;
-    width: 110px; }
+    width: 130px; }
   .menu__item a {
     margin: 0;
     padding: 15px 0;
-    width: 110px;
+    width: 130px;
     text-align: center; }
   .menu__item.menu__item--contact {
     width: 130px; }
@@ -672,7 +679,8 @@ a {
     margin: 0;
     padding: 0 calc(50vw - 480px);
     padding-top: 14px;
-    padding-bottom: 14px; }
+    padding-bottom: 14px;
+    font-size: 10px; }
   .footer__copyright {
     margin: 0; }
   .footer__contact {
@@ -692,7 +700,8 @@ a {
   .footer {
     padding: 0 calc(50vw - 590px);
     padding-top: 14px;
-    padding-bottom: 14px; } }
+    padding-bottom: 14px;
+    font-size: 12px; } }
 
 .header {
   display: -webkit-box;

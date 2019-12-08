@@ -58,14 +58,25 @@
 @media (min-width: $screen-width-M) {
   .about-us {
     margin: 0;
-    padding: 0 calc(50vw - 480px);
+    padding: 0;
+    padding-left: calc(50vw - 480px);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 
   .about-us__right {
+    width: 85%;
     padding: 40px 40px;
+  }
+
+  .about-us__heading {
+    font-size: 19px;
+  }
+
+  .about-us__text {
+
+    font-size: 17px;
   }
 
   .about-us__table.table {
@@ -75,6 +86,7 @@
 
   .about-us__img {
     display: block;
-    width: 300px;
+    width: 30%;
+    height: auto;
   }
 }
