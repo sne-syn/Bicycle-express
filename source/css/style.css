@@ -109,8 +109,8 @@ a {
         -ms-flex-pack: justify;
             justify-content: space-between; }
   .about-us__right {
-    width: 85%;
-    padding: 40px 40px; }
+    width: 65%;
+    padding: 40px 20px; }
   .about-us__heading {
     font-size: 19px; }
   .about-us__text {
