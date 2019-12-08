@@ -87,7 +87,7 @@
   }
 
   .nav__toggle {
-    left: 5px;
+    left: 20px;
     width: 48px;
     height: 42px;
     margin: 0;
@@ -95,9 +95,9 @@
 
   .nav--closed .nav__toggle::before {
     top: 11px;
-    left: 10px;
-    width: 46px;
-    height: 4px;
+    left: 2px;
+    width: 44px;
+    height: 3px;
     box-shadow: 0 9px 0 0 $color-white, 0 18px 0 0 $color-white;
   }
 
@@ -106,8 +106,8 @@
     &::before,
     &::after {
       top: 18px;
-      width: 46px;
-      height: 4px;
+      width: 44px;
+      height: 3px;
     }
 
     &::before {

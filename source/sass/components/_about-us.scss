@@ -66,27 +66,29 @@
   }
 
   .about-us__right {
-    width: 65%;
-    padding: 40px 20px;
+    width: 55%;
+    padding: 65px 20px 30px;
   }
 
   .about-us__heading {
-    font-size: 19px;
+    margin-bottom: 40px;
+    font-size: 20px;
   }
 
   .about-us__text {
-
-    font-size: 17px;
+    padding: 0;
+    margin-bottom: 40px;
+    font-size: 18px;
   }
 
   .about-us__table.table {
     width: 74%;
-    padding-right: 25px;
+    padding: 0;
   }
 
   .about-us__img {
     display: block;
-    width: 30%;
+    width: 40%;
     height: auto;
   }
 }

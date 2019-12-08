@@ -43,9 +43,10 @@
     justify-content: space-between;
     margin: 0;
     padding: 0 calc(50vw - 480px);
-    padding-top: 14px;
+    padding-top: 10px;
     padding-bottom: 14px;
-    font-size: 10px;
+    font-size: 12px;
+    line-height: 1.7;
   }
 
   .footer__copyright {
@@ -54,17 +55,9 @@
 
   .footer__contact {
     display: block;
-    width: 200px;
+    width: 210px;
     margin: 0;
     color: $color-white;
-  }
-
-  .footer__mail {
-    color: $color-white;
-  }
-
-  .footer__heading {
-    margin: 0;
   }
 
   .footer__timetable {
