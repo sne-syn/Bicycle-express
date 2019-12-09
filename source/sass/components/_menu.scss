@@ -8,23 +8,18 @@
   text-align: center;
   list-style: none;
 
-  &:hover {
-    color: $color-menu-hover;
-    background-color: $color-primary-hover;
-  }
-
-  &:active {
-    background-color: $color-primary-active;
-  }
 }
 
 .menu__link {
   display: block;
-  width: 320px;
   margin: 0 auto;
 
   &:hover .menu__text {
     color: $color-menu-hover;
+  }
+
+  &:active .menu__text {
+    color: rgba($color-menu-hover, 0.6);
   }
 }
 
@@ -46,10 +41,6 @@
   .menu__link {
     display: block;
     margin: 0 auto;
-
-    &:hover .menu__text {
-      color: $color-menu-hover;
-    }
   }
 
   .menu__text {
@@ -67,32 +58,41 @@
   .menu {
     margin: 0;
     padding: 0;
-    padding-left: 10px;
-    width: 700px;
+    width: 600px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
   }
 
   .menu__item {
     margin: 0;
     padding: 0;
-    width: 130px;
   }
 
   .menu__item a {
     margin: 0;
     padding: 15px 0;
-    width: 130px;
     text-align: center;
   }
+}
 
-  .menu__item.menu__item--contact {
-    width: 130px;
+@media (min-width: $screen-width-L) {
+  .menu {
+    padding: 0;
+  }
+}
+
+@media (min-width: $screen-width-XL) {
+  .menu__item a {
+    margin: 0;
+    padding: 25px 0 15px;
+    width: 100%;
   }
 
-  .menu__item.menu__item--contact a {
-    width: 130px;
+  .menu__text {
+    font-size: 24px;
+    line-height: 6px;
+    letter-spacing: 1px;
   }
 }

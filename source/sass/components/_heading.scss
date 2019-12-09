@@ -66,7 +66,15 @@
   .heading {
     padding-top: 221px;
     min-height: 471px;
-    background-size: cover;
     background-position-y: -180px;
+  }
+}
+
+@media (min-width: $screen-width-L) {
+  .heading {
+    padding-top: 300px;
+    min-height: 600px;
+    background-size: cover;
+    background-position-y: -185px;
   }
 }

@@ -128,7 +128,7 @@
 
 @media (min-width: $screen-width-M) {
   .nav {
-    padding: 0 calc(50% - 490px);
+    padding: 0 calc(50% - 470px);
   }
 
   .nav .nav__toggle {
@@ -138,6 +138,12 @@
 
 @media (min-width: $screen-width-L) {
   .nav {
-    padding: 0 calc(50% - 590px);
+    padding: 0 calc(50% - 580px);
+  }
+}
+
+@media (min-width: $screen-width-XL) {
+  .nav {
+    padding: 0 calc(50% - 625px);
   }
 }

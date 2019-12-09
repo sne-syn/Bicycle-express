@@ -92,3 +92,18 @@
     height: auto;
   }
 }
+
+@media (min-width: $screen-width-L) {
+  .about-us {
+    margin: 0;
+    padding: 0;
+    padding-left: calc(50vw - 590px);
+  }
+
+  .about-us__right {
+    width: 50%;
+    padding: 0;
+    padding-left: 5%;
+    padding-top: 120px;
+  }
+}
