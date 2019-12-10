@@ -6,13 +6,16 @@
   <title>Bicycle express</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap" rel="stylesheet">
+
+  <link rel="preload" href="fonts/ralewaybold.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/robotoslabregular.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/robotoslabbold.woff2" as="font" crossorigin="anonymous">
 
   <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body class="no-js">
+
   <header class="header">
     <div class="header__logo-link">
       <picture>
@@ -31,7 +34,6 @@
   </header>
 
   <main>
-
     <nav class="nav nav--nojs nav--closed">
       <button class="nav__toggle" type="button"><span class="visually-hidden">Menu</span></button>
       <ul class="menu menu--closed">
@@ -51,8 +53,8 @@
           <a class="menu__link" href="events.html"><span class="menu__text">Events</span></a>
         </li>
       </ul>
-      <form class="search-form">
-        <input class="search-form__input" type="search" placeholder="Search" tabindex=0>
+      <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+        <input class="search-form__input" type="search" placeholder="Search" tabindex=0></input>
         <button type="submit" class="search-form__btn">Search</button>
       </form>
     </nav>

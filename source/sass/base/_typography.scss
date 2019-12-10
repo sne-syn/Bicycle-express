@@ -1,0 +1,23 @@
+@font-face {
+  font-weight: 900;
+  font-family: "Raleway";
+  font-style: normal;
+  font-display: swap;
+  src: local("Raleway Bold"), local("Raleway-Bold"), url("../fonts/ralewaybold.woff2") format("woff2"), url("../fonts/ralewaybold.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-display: swap;
+  src: local("Roboto Slab"), local("Roboto Slab Regular"), url("../fonts/robotoslabregular.woff2") format("woff2"), url("../fonts/robotoslabregular.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 900;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-display: swap;
+  src: local("Roboto Slab Bold"), local("Roboto Slab-Bold"), url("../fonts/robotoslabbold.woff2") format("woff2"), url("../fonts/robotoslabbold.woff") format("woff");
+}

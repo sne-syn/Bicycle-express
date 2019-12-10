@@ -6,10 +6,10 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-  // outline: 1px solid red;
 }
 
 body {
+  position: relative;
   margin: 0;
   padding: 0;
   min-width: 320px;
