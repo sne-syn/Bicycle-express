@@ -64,8 +64,12 @@
 @media (min-width: $screen-width-M) {
   .heading {
     padding-top: 221px;
-    min-height: 471px;
+    min-height: 484px;
     background-position-y: -180px;
+  }
+
+  .heading__text {
+    font-size: 50px;
   }
 }
 
