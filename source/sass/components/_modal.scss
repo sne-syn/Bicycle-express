@@ -58,42 +58,112 @@
   border: none;
   cursor: pointer;
   z-index: 30;
-}
-
-.modal__close::before,
-.modal__close::after {
-  content: "";
-  position: absolute;
-  top: 6px;
-  left: 0;
-  width: 15px;
-  height: 2px;
-  background-color: $color-secondary;
-}
-
-.modal__close::before {
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.modal__close::after {
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-
-.modal__close:hover::before,
-.modal__close:hover::after {
-  background-color: $color-secondary-hover;
-}
-
-.modal__close:active {
-  outline: none;
 
   &::before,
   &::after {
-    background-color: $color-secondary-active;
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 15px;
+    height: 2px;
+    background-color: $color-secondary;
+  }
 
+  &::before {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  .modal__close:hover::before,
+  .modal__close:hover::after {
+    background-color: $color-secondary-hover;
+  }
+
+  .modal__close:active {
+    outline: none;
+
+    &::before,
+    &::after {
+      background-color: $color-secondary-active;
+
+    }
+  }
+}
+
+
+@media (min-width: $screen-width-L) {
+  .modal__position {
+    margin-left: -280px;
+  }
+
+  .modal__wrapper {
+    width: 400px;
+    padding: 70px 50px 80px;
+  }
+
+  .modal__text-heading {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 57px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .modal__text {
+    font-size: 16px;
+  }
+  .modal__close {
+    top: 12px;
+    right: 12px;
+
+    &::before,
+    &::after {
+      width: 18px;
+      height: 3px;
+    }
+  }
+}
+
+@media (min-width: $screen-width-XL) {
+  .modal__position {
+    margin-left: -280px;
+  }
+
+  .modal__wrapper {
+    width: 486px;
+    padding: 110px 100px 130px;
+  }
+
+  .modal__text-heading {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    line-height: 57px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .modal__text {
+    font-size: 18px;
+  }
+
+  .modal__close {
+    top: 15px;
+    right: 15px;
+
+    &::before,
+    &::after {
+      width: 18px;
+      height: 3px;
+    }
   }
 }

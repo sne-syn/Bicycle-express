@@ -43,3 +43,23 @@
     font-size: 22px;
   }
 }
+
+@media (min-width: $screen-width-M) {
+  .table__row {
+    font-size: 16px;
+  }
+
+  .table__cell {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: $screen-width-L) {
+  .table__row {
+    font-size: 18px;
+  }
+
+  .table__cell {
+    font-size: 25px;
+  }
+}

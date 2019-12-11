@@ -82,8 +82,9 @@
   }
 
   .about-us__table.table {
-    width: 74%;
+    width: 80%;
     padding: 0;
+    padding-right: 10px;
   }
 
   .about-us__img {
@@ -103,7 +104,25 @@
   .about-us__right {
     width: 50%;
     padding: 0;
-    padding-left: 5%;
-    padding-top: 120px;
+    padding-left: 6%;
+    padding-top: 100px;
+  }
+
+  .about-us__text {
+    font-size: 20px;
+  }
+
+  .about-us__table.table {
+    width: 90%;
+  }
+}
+
+@media (min-width: $screen-width-XL) {
+  .about-us__heading {
+    font-size: 24px;
+  }
+
+  .about-us__text {
+    font-size: 22px;
   }
 }

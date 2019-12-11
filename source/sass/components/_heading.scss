@@ -19,6 +19,7 @@
   font-family: $header-font-family;
   font-weight: 900;
   font-size: 24px;
+  text-transform: uppercase;
   letter-spacing: 2px;
   background-color: rgba(112, 171, 129, 0.5);
 }
@@ -49,8 +50,6 @@
     padding-top: 185px;
     min-height: 455px;
     background-image: url(../img/heading-photo-tablet.jpg);
-    background-size: cover;
-    background-position-y: -42px;
   }
 
   .heading__text {
@@ -76,6 +75,7 @@
     min-height: 600px;
     background-size: cover;
     background-position-y: -185px;
+    background-image: url(../img/heading-photo-desktop.jpg);
   }
 }
 
@@ -85,5 +85,14 @@
     min-height: 700px;
     background-size: cover;
     background-position-y: -185px;
+  }
+
+  .heading__text {
+    font-size: 72px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.67;
+    letter-spacing: 1.8px;
   }
 }
