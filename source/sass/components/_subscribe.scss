@@ -18,6 +18,7 @@
 }
 
 .subscribe-form__input {
+  margin: 0;
   padding: 4px 15px;
   width: 235px;
   // width: 100%;
@@ -33,6 +34,7 @@
 
 .subscribe-form__btn {
   // width: 100%;
+  margin: 0;
   padding-top: 4px;
   padding-right: 15px;
   padding-bottom: 5px;
@@ -114,6 +116,11 @@
 
   .subscribe__promo {
     font-size: 17px;
+  }
+
+  .subscribe-form__input,
+  .subscribe-form__btn {
+    margin: 0;
   }
 }
 
