@@ -81,22 +81,23 @@
     -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
   }
+}
 
-  .modal__close:hover::before,
-  .modal__close:hover::after {
-    background-color: $color-secondary-hover;
-  }
+.modal__close:hover::before,
+.modal__close:hover::after {
+  background-color: $color-secondary-hover;
+}
 
-  .modal__close:active {
-    outline: none;
+.modal__close:active {
+  outline: none;
 
-    &::before,
-    &::after {
-      background-color: $color-secondary-active;
+  &::before,
+  &::after {
+    background-color: $color-secondary-active;
 
-    }
   }
 }
+
 
 
 @media (min-width: $screen-width-L) {
@@ -121,6 +122,7 @@
   .modal__text {
     font-size: 16px;
   }
+
   .modal__close {
     top: 12px;
     right: 12px;

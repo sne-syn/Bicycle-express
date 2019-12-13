@@ -8,13 +8,6 @@
   display: block; }
 
 @font-face {
-  font-weight: 900;
-  font-family: "Raleway";
-  font-style: normal;
-  font-display: swap;
-  src: local("Raleway Bold"), local("Raleway-Bold"), url("../fonts/ralewaybold.woff2") format("woff2"), url("../fonts/ralewaybold.woff") format("woff"); }
-
-@font-face {
   font-weight: 400;
   font-family: "Roboto Slab";
   font-style: normal;
@@ -407,13 +400,15 @@ a {
   .modal__close::after {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg); }
-  .modal__close .modal__close:hover::before,
-  .modal__close .modal__close:hover::after {
-    background-color: #90be9d; }
-  .modal__close .modal__close:active {
-    outline: none; }
-    .modal__close .modal__close:active::before, .modal__close .modal__close:active::after {
-      background-color: #568d65; }
+
+.modal__close:hover::before,
+.modal__close:hover::after {
+  background-color: #90be9d; }
+
+.modal__close:active {
+  outline: none; }
+  .modal__close:active::before, .modal__close:active::after {
+    background-color: #568d65; }
 
 @media (min-width: 1199.98px) {
   .modal__position {
