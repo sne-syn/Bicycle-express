@@ -63,7 +63,6 @@
       "heading image"
       "text image"
       "statistics image";
-      // grid-column-gap: 60px;
     margin: 0;
     padding: 0;
     padding-left: calc(50vw - 480px);
@@ -71,16 +70,29 @@
 
   .about-us__heading {
     grid-area: heading;
-  }
-
-  .about-us__statistics {
-    grid-area: statistics;
+    display: inline-block;
+    margin: auto 0;
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 20px;
   }
 
   .about-us__text {
     grid-area: text;
+    width: 75%;
     display: inline-block;
-    vertical-align: middle;
+    margin: auto;
+    padding: 0;
+    font-size: 17px;
+  }
+
+  .about-us__statistics.statistics-table {
+    grid-area: statistics;
+    width: 60%;
+    margin: auto;
+    margin-top: 0;
+    display: inline-block;
+    padding: 0;
   }
 
   .about-us__img {
@@ -91,73 +103,37 @@
   }
 }
 
-// @media (min-width: $screen-width-M) {
-//   .about-us {
-//     margin: 0;
-//     padding: 0;
-//     padding-left: calc(50vw - 480px);
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: space-between;
-//   }
+@media (min-width: $screen-width-L) {
+  .about-us {
+    margin: 0;
+    padding: 0;
+    padding-left: calc(50vw - 590px);
+  }
 
-//   .about-us__right {
-//     width: 55%;
-//     padding: 65px 20px 30px;
-//   }
+  .about-us__heading {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 0;
+  }
 
-//   .about-us__heading {
-//     margin-bottom: 40px;
-//     font-size: 20px;
-//   }
+  .about-us__text {
+    width: 70%;
+    font-size: 19px;
+  }
 
-//   .about-us__text {
-//     padding: 0;
-//     margin-bottom: 40px;
-//     font-size: 18px;
-//   }
+  .about-us__statistics.statistics-table {
+    width: 60%;
+    margin-top: 0;
+    padding-right: 32px;
+  }
+}
 
-//   .about-us__table.table {
-//     width: 80%;
-//     padding: 0;
-//     padding-right: 10px;
-//   }
+@media (min-width: $screen-width-XL) {
+  .about-us__heading {
+    font-size: 24px;
+  }
 
-//   .about-us__img {
-//     display: block;
-//     height: auto;
-//   }
-// }
-
-// @media (min-width: $screen-width-L) {
-//   .about-us {
-//     margin: 0;
-//     padding: 0;
-//     padding-left: calc(50vw - 590px);
-//   }
-
-//   .about-us__right {
-//     width: 50%;
-//     padding: 0;
-//     padding-left: 6%;
-//     padding-top: 100px;
-//   }
-
-//   .about-us__text {
-//     font-size: 20px;
-//   }
-
-//   .about-us__table.table {
-//     width: 90%;
-//   }
-// }
-
-// @media (min-width: $screen-width-XL) {
-//   .about-us__heading {
-//     font-size: 24px;
-//   }
-
-//   .about-us__text {
-//     font-size: 22px;
-//   }
-// }
+  .about-us__text {
+    font-size: 22px;
+  }
+}
