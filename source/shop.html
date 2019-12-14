@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bicycle express</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:900|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="no-js">
+  <header class="header">
+    <a class="header__logo-link" href="index.html">
+      <img class="header__logo-image" src="img/logo-desktop.jpg" width="97" height="86"
+        alt="Bicycle Express local repair shop">
+
+      <p class="header__shopname">Bicycle Express</p>
+    </a>
+    <p class="header__adress">
+      131 E Williams St. San Jose, CA 95112 <a class="header__mail"
+        href="mailto:shop@bicycleexpress.net">shop@bicycleexpress.net</a>
+      (408) 998-1618
+    </p>
+  </header>
+  <nav class="main-nav main-nav--nojs main-nav--closed">
+    <button class="main-nav__toggle" type="button"><span class="visually-hidden">Menu</span></button>
+    <ul class="menu">
+      <li class="menu__item menu__item--services">
+        <a class="menu__link" href="services.html">Services</a>
+      </li>
+      <li class="menu__item menu__item--shop">
+        <a class="menu__link" href="shop.html">Shop</a>
+      </li>
+      <li class="menu__item menu__item--demo">
+        <a class="menu__link menu__link--active" href="demo.html">Demo</a>
+      </li>
+      <li class="menu__item menu__item--contact">
+        <a class="menu__link" href="contact.html">Contact Us</a>
+      </li>
+      <li class="menu__item menu__item--events">
+        <a class="menu__link" href="events.html">Events</a>
+      </li>
+    </ul>
+  </nav>
+  <form class="search-form">
+    <input class="search-form__input" type="search" placeholder="Search">
+    <button type="submit" class="search-form__btn">Search</button>
+  </form>
+  <main>
+    <h1 class="visually-hidden">Demo</h1>
+    <section class="intro-section">
+      <h4 class="intro-section__heading">How to Demo</h4>
+      <p class="intro-section__text">
+        Come in to our store to pick up one of our many road and mountain demos. You must sign a
+        liability/waiver form and we will help get you adjusted to the bike of your choosing. The fee is $100
+        per day of use and that fee can be credited towards the purchase of a new bike.
+      </p>
+    </section>
+    <section class="brands wrapper">
+      <h2 class="visually-hidden">Brends</h2>
+      <ul class="brands__list">
+        <li class="brands__item"><img alt="Logo «Raleigh»" height="100" src="img/logo-1.png" width="260"></li>
+        <li class="brands__item"><img alt="Logo «Pure Fix cycles»" height="100" src="img/logo-2.png" width="260"></li>
+        <li class="brands__item"><img alt="Logo «Unknown Bike Company»" height="100" src="img/logo-3.png" width="260">
+        </li>
+        <li class="brands__item"><img alt="Logo «Hold Fast»" height="100" src="img/logo-4.png" width="260"></li>
+        <li class="brands__item"><img alt="Logo «Felt bicycles»" height="100" src="img/logo-5.png" width="260">
+        </li>
+        <li class="brands__item"><img alt="Logo «Surly»" height="100" src="img/logo-6.png" width="260"></li>
+        <li class="brands__item"><img alt="Logo «DAHON»" height="100" src="img/logo-7.png" width="260"></li>
+      </ul>
+    </section>
+    <div class="content">
+      <div class="content__left">
+        <section class="filter">
+          <h5 class="filter__heading">Filter By:</h5>
+          <form action="https://echo.htmlacademy.ru" class="filter__form" method="post">
+            <div class="checkbox filter__checkbox">
+              <fieldset>
+                <legend class="visually-hidden">Availability</legend>
+                <label class="checkbox__field" for="instock">
+                  <input checked class="visually-hidden" id="instock" name="availability" type="checkbox">
+                  <span class="checkbox__indication"></span> In Stock
+                </label>
+                <label class="checkbox__field" for="order">
+                  <input class="visually-hidden" id="order" name="availability" type="checkbox">
+                  <span class="checkbox__indication"></span> Special Order
+                </label>
+              </fieldset>
+              <fieldset>
+                <legend class="checkbox__legend">Categories</legend>
+                <label class="checkbox__field" for="sport">
+                  <input class="visually-hidden" id="sport" name="categories" type="checkbox">
+                  <span class="checkbox__indication"></span> Sport
+                </label>
+                <label class="checkbox__field" for="touring">
+                  <input class="visually-hidden" id="touring" name="categories" type="checkbox">
+                  <span class="checkbox__indication"></span> Touring
+                </label>
+                <label class="checkbox__field" for="cyclocross">
+                  <input class="visually-hidden" id="cyclocross" name="categories" type="checkbox">
+                  <span class="checkbox__indication"></span> Cyclocross
+                </label>
+                <label class="checkbox__field" for="mountain">
+                  <input class="visually-hidden" id="mountain" name="categories" type="checkbox">
+                  <span class="checkbox__indication"></span> Mountain
+                </label>
+              </fieldset>
+              <fieldset>
+                <legend class="checkbox__legend">Brands</legend>
+                <label class="checkbox__field" for="dahon">
+                  <input checked class="visually-hidden" id="dahon" name="brands" type="checkbox">
+                  <span class="checkbox__indication"></span> DAHON
+                </label>
+                <label class="checkbox__field" for="hold-fast">
+                  <input class="visually-hidden" id="hold-fast" name="brands" type="checkbox">
+                  <span class="checkbox__indication"></span> Hold Fast
+                </label>
+                <label class="checkbox__field" for="felt">
+                  <input checked class="visually-hidden" id="felt" name="brands" type="checkbox">
+                  <span class="checkbox__indication"></span> Felt
+                </label>
+                <label class="checkbox__field" for="pure-fix">
+                  <input checked class="visually-hidden" id="pure-fix" name="brands" type="checkbox">
+                  <span class="checkbox__indication"></span> Pure Fix
+                </label>
+                <label class="checkbox__field" for="raleigh">
+                  <input class="visually-hidden" id="raleigh" name="brands" type="checkbox">
+                  <span class="checkbox__indication"></span> Raleigh
+                </label>
+                <label class="checkbox__field" for="santa-cruz">
+                  <input class="visually-hidden" id="santa-cruz" name="brands" type="checkbox">
+                  <span class="checkbox__indication"></span> Santa Cruz
+                </label>
+                <label class="checkbox__field" for="surly">
+                  <input class="visually-hidden" id="surly" name="brands" type="checkbox">
+                  <span class="checkbox__indication"></span> Surly
+                </label>
+                <label class="checkbox__field" for="unknown">
+                  <input class="visually-hidden" id="unknown" name="brands" type="checkbox">
+                  <span class="checkbox__indication"></span> Unknown
+                </label>
+              </fieldset>
+            </div>
+          </form>
+        </section>
+      </div>
+      <div class="content__right">
+        <div class="sort">
+          <form action="https://echo.htmlacademy.ru" class="sort__form" method="post">
+            <p class="sort__title">Sort By:</p>
+            <select size="1" name="sort">
+              <option value="bestsellers">Bestsellers</option>
+              <option value="***">***</option>
+              <option value="+++">+++</option>
+            </select>
+          </form>
+        </div>
+
+        <ul class="product">
+          <li class="product__item">
+            <img class="product__img" src="img/product-1.jpg" width="" height="" alt="">
+            <div class="product__description">
+              <h3 class="product__brand">Felt</h3>
+              <p class="product__name">Decree FRD</p>
+              <span class="product_price">$ 8.999.00</span>
+            </div>
+            <a class="btn product__btn" href="#">Request</a>
+          </li>
+          <li class="product__item">
+            <img class="product__img" src="img/product-2.jpg" width="" height="" alt="">
+            <div class="product__description">
+              <h3 class="product__brand">Raleigh</h3>
+              <p class="product__name">Port Townsend</p>
+              <span class="product_price">$ 759.99</span>
+            </div>
+            <a class="btn product__btn" href="#">Request</a>
+          </li>
+          <li class="product__item">
+            <img class="product__img" src="img/product-3.jpg" width="" height="" alt="">
+            <div class="product__description">
+              <h3 class="product__brand">Raleigh</h3>
+              <p class="product__name">Redux 2</p>
+              <span class="product_price">$ 679.99</span>
+            </div>
+            <a class="btn product__btn" href="#">Request</a>
+          </li>
+          <li class="product__item">
+            <img class="product__img" src="img/product-4.jpg" width="" height="" alt="">
+            <div class="product__description">
+              <h3 class="product__brand">Raleigh</h3>
+              <p class="product__name">Gala</p>
+              <span class="product_price">$ 449.99</span>
+            </div>
+            <a class="btn product__btn" href="#">Request</a>
+          </li>
+          <li class="product__item">
+            <img class="product__img" src="img/product-5.jpg" width="" height="" alt="">
+            <div class="product__description">
+              <h3 class="product__brand">Felt</h3>
+              <p class="product__name">Vezza Cruz</p>
+              <span class="product_price">$ 499.00</span>
+            </div>
+            <a class="btn product__btn" href="#">Request</a>
+          </li>
+          <li class="product__item">
+            <img class="product__img" src="img/product-6.jpg" width="" height="" alt="">
+            <div class="product__description">
+              <h3 class="product__brand">Raleigh</h3>
+              <p class="product__name">Tamland - 2</p>
+              <span class="product_price">$ 2.399.99</span>
+            </div>
+            <a class="btn product__btn" href="#">Request</a>
+          </li>
+          <li class="product__item">
+            <img class="product__img" src="img/product-7.jpg" width="" height="" alt="">
+            <div class="product__description">
+              <h3 class="product__brand">Unknown</h3>
+              <p class="product__name">Bass-3 Complete</p>
+              <span class="product_price">$ 599.99</span>
+            </div>
+            <a class="btn product__btn" href="#">Request</a>
+          </li>
+          <li class="product__item">
+            <img class="product__img" src="img/product-8.jpg" width="" height="" alt="">
+            <div class="product__description">
+              <h3 class="product__brand">Unknown</h3>
+              <p class="product__name">Type - 1</p>
+              <span class="product_price">$ 699.99</span>
+            </div>
+            <a class="btn product__btn" href="#">Request</a>
+          </li>
+          <li class="product__item">
+            <img class="product__img" src="img/product-9.jpg" width="" height="" alt="">
+            <div class="product__description">
+              <h3 class="product__brand">Felt</h3>
+              <p class="product__name">Decree 5</p>
+              <span class="product_price">$ 3.499.00</span>
+            </div>
+            <a class="btn product__btn" href="#">Request</a>
+          </li>
+        </ul>
+        <ul class="pagination">
+          <li class="pagination__item"><a href="#">1</a></li>
+          <li class="pagination__item"><a href="#">2</a></li>
+          <li class="pagination__item"><a href="#">3</a></li>
+          <li class="pagination__item"><a href="#">4</a></li>
+          <li class="pagination__item"><a href="#">5</a></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <ul class="social">
+      <li class="social__item social__item--facebook">
+        <a href="#">
+          <span class="visually-hidden">Facebook</span>
+        </a>
+      </li>
+      <!-- Что это за иконка? -->
+      <li class="social__item social__item--icon">
+        <a href="#">
+          <span class="visually-hidden">Icon</span>
+        </a>
+      </li>
+      <li class="social__item social__item--twitter">
+        <a href="#">
+          <span class="visually-hidden">Twitter</span>
+        </a>
+      </li>
+      <li class="social__item social__item--instagram">
+        <a href="#">
+          <span class="visually-hidden">Instagram</span>
+        </a>
+      </li>
+    </ul>
+    <div class="copyright">©2018 by Bicycle Express.</div>
+    <section class="footer__contact">
+      <h4 class="footer__heading">Contact</h4>
+      <p class="footer__text">
+        131 E Williams St. San Jose, CA 95112 <a class="footer__mail"
+          href="mailto:shop@bicycleexpress.net">shop@bicycleexpress.net</a>
+        (408) 998-1618
+      </p>
+    </section>
+    <table class="opening-hours table">
+      <caption class="opening-hours__heading table__heading">Hours</caption>
+      <tr class="table__row">
+        <th class="table__header">Tuesday - Friday</th>
+        <td class="table__cell">10:30 am - 7 pm
+        </td>
+      </tr>
+      <tr class="table__row ">
+        <th class="table__header">Saturdat</th>
+        <td class="table__cell">11am - 6 pm
+        </td>
+      </tr>
+      <tr class="table__row">
+        <th class="table__header">Sunday</th>
+        <td class="table__cell">11 am - 5 pm
+        </td>
+      </tr>
+    </table>
+  </footer>
+  <section class="modal">
+    <h3 class="modal__text-heading">Request Form</h3>
+    <form class="request-form form" action="https://echo.htmlacademy.ru" method="post">
+      <fieldset class="form__fieldset">
+        <ul class="form__list">
+          <li class="form__item"><label class="form__label" for="name">Name</label>
+            <input class="form__input" id="name" name="user-name" type="text"></li>
+
+          <li class="form__item"><label class="form__label" for="email">Email</label>
+            <input class="form__input" id="email" name="email" type="email"></li>
+
+          <li class="form__item"><label class="form__label" for="number">Phone Number</label>
+            <input class="form__input" id="number" name="number" type="tel"></li>
+
+          <li class="form__item"><label class="form__label" for="serial-number">Serial Number</label>
+            <input class="form__input" id="serial-number" name="subject" type="text" placeholder="WTU123AB4567C">
+          </li>
+        </ul>
+      </fieldset>
+      <button class="form__btn btn " type="submit">Request</button>
+
+    </form>
+    <button class="modal__close" title="Close" type="button">Close</button>
+    <div class="modal__overlay"></div>
+  </section>
+</body>
+
+</html>
