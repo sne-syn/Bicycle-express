@@ -7,21 +7,24 @@
 @import "components/about-us";
 @import "components/buttons";
 @import "components/cards";
-@import "components/contact";
 @import "components/filter";
 @import "components/heading";
-@import "components/menu";
 @import "components/modal";
-@import "components/search-form";
-@import "components/social";
 @import "components/subscribe";
 @import "components/statistics-table";
-@import "components/timetable";
-@import "layout/footer";
+
+@import "layout/footer-components/contact";
+@import "layout/footer-components/footer";
+@import "layout/footer-components/timetable";
+@import "layout/footer-components/social";
+
+@import "layout/nav-components/menu";
+@import "layout/nav-components/nav";
+@import "layout/nav-components/search-form";
+
 @import "layout/header";
-@import "layout/main";
-@import "layout/nav";
-@import "pages/catalog";
+
+@import "pages/shop";
 @import "pages/contact";
 @import "pages/demo";
 @import "pages/events";
