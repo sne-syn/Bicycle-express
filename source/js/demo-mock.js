@@ -27,20 +27,14 @@ var productBlock = document.querySelector('.product');
 var productTemplate = document.querySelector('#demo-product').content
 .querySelector('.product__item');
 
-var addCardsImg = function (photo) {
-  var productImg= productBlock.querySelector('.product__img');
-  productImg.innerHTML = '';
-    var imgTag = document.createElement('img');
-    imgTag.classList.add('product__img');
-    imgTag.src = photo;
-    imgTag.width = '282';
-    imgTag.height = '178';
-    imgTag.alt = 'Product image';
-    productImg.appendChild(imgTag);
-};
   var renderProductCard = function (obj) {
     var productCard = productTemplate.cloneNode(true);
     productBlock.insertBefore(productCard, null);
+
+    var image = productCard.querySelector('.product__img');
+    image.src = obj.photo;
+    image.width = 282;
+    image.height = 178;
 
     var brand = productCard.querySelector('.product__brand');
     brand.textContent = obj.brand;
@@ -51,9 +45,8 @@ var addCardsImg = function (photo) {
     var price = productCard.querySelector('.product__price');
     price.textContent = obj.price;
 
-    addCardsImg(obj.photo, productCard);
   };
 
-  renderProductCard(cards[0]);
+  renderProductCard(cards[1]);
 
 })();
