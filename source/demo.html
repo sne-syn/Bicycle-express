@@ -24,11 +24,11 @@
 
       <p class="header__logoname">Bicycle Express</p>
     </a>
-      <p class="header__adress">
-        131 E Williams St. San Jose, CA 95112<br><a class="header__mail"
-          href="mailto:shop@bicycleexpress.net">shop@bicycleexpress.net</a>
-        <br>(408) 998-1618
-      </p>
+    <p class="header__adress">
+      131 E Williams St. San Jose, CA 95112<br><a class="header__mail"
+        href="mailto:shop@bicycleexpress.net">shop@bicycleexpress.net</a>
+      <br>(408) 998-1618
+    </p>
   </header>
   <nav class="nav nav--nojs nav--closed">
     <button class="nav__toggle" type="button"><span class="visually-hidden">Menu</span></button>
@@ -68,15 +68,15 @@
     <section class="brands">
       <h2 class="visually-hidden">Brands</h2>
       <ul class="brands__list">
-        <li class="brands__item"><img alt="Logo «Raleigh»" height="100" src="img/logo-1.png" width="260"></li>
-        <li class="brands__item"><img alt="Logo «Pure Fix cycles»" height="100" src="img/logo-2.png" width="260"></li>
-        <li class="brands__item"><img alt="Logo «Unknown Bike Company»" height="100" src="img/logo-3.png" width="260">
+        <li class="brands__item"><img alt="Logo «Raleigh»" src="img/logo-1.png" height="40" width="100"></li>
+        <li class="brands__item"><img alt="Logo «Pure Fix cycles»" src="img/logo-2.png" height="40" width="100"></li>
+        <li class="brands__item"><img alt="Logo «Unknown Bike Company»" src="img/logo-3.png" height="40" width="100">
         </li>
-        <li class="brands__item"><img alt="Logo «Hold Fast»" height="100" src="img/logo-4.png" width="260"></li>
-        <li class="brands__item"><img alt="Logo «Felt bicycles»" height="100" src="img/logo-5.png" width="260">
+        <li class="brands__item"><img alt="Logo «Hold Fast»"src="img/logo-4.png" height="40" width="100"></li>
+        <li class="brands__item"><img alt="Logo «Felt bicycles»" src="img/logo-5.png" height="40" width="100">
         </li>
-        <li class="brands__item"><img alt="Logo «Surly»" height="100" src="img/logo-6.png" width="260"></li>
-        <li class="brands__item"><img alt="Logo «DAHON»" height="100" src="img/logo-7.png" width="260"></li>
+        <li class="brands__item"><img alt="Logo «Surly»" src="img/logo-6.png" height="40" width="100"></li>
+        <li class="brands__item"><img alt="Logo «DAHON»" src="img/logo-7.png" height="40" width="100"></li>
       </ul>
     </section>
     <section class="filter">
@@ -151,28 +151,29 @@
         </div>
       </form>
     </section>
-      <div class="sort">
-        <form action="https://echo.htmlacademy.ru" class="sort__form" method="post">
-          <p class="sort__title">Sort By:</p>
-          <select size="1" name="sort">
-            <option value="bestsellers">Bestsellers</option>
-            <option value="***">***</option>
-            <option value="+++">+++</option>
-          </select>
-        </form>
-      </div>
+    <div class="sort">
+      <form action="https://echo.htmlacademy.ru" class="sort__form" method="post">
+        <p class="sort__title">Sort By:</p>
+        <select size="1" name="sort">
+          <option value="bestsellers">Bestsellers</option>
+          <option value="priceLowHigh">Price Low-High</option>
+          <option value="priceHighLow">Price High-Low</option>
+          <option value="new">New</option>
+        </select>
+      </form>
+    </div>
 
-      <ul class="product">
-        <li class="product__item">
-          <img class="product__img" src="img/product-1.jpg" width="" height="" alt="">
-          <div class="product__description">
-            <h3 class="product__brand">Felt</h3>
-            <p class="product__name">Decree FRD</p>
-            <span class="product_price">$ 8.999.00</span>
-          </div>
-          <a class="btn product__btn" href="#">Request</a>
-        </li>
-        <!-- <li class="product__item">
+    <ul class="product">
+      <!-- <li class="product__item">
+        <img class="product__img" src="img/product-demo-1.png" width="282" height="178" alt="Product image">
+        <div class="product__description">
+          <h3 class="product__brand">Felt</h3>
+          <p class="product__name">Decree FRD</p>
+          <span class="product__price">$ 8.999.00</span>
+        </div>
+        <a class="btn product__btn" href="#">Request</a>
+      </li> -->
+      <!-- <li class="product__item">
           <img class="product__img" src="img/product-2.jpg" width="" height="" alt="">
           <div class="product__description">
             <h3 class="product__brand">Raleigh</h3>
@@ -244,14 +245,14 @@
           </div>
           <a class="btn product__btn" href="#">Request</a>
         </li> -->
-      </ul>
-      <ul class="pagination">
-        <li class="pagination__item"><a href="#">1</a></li>
-        <li class="pagination__item"><a href="#">2</a></li>
-        <li class="pagination__item"><a href="#">3</a></li>
-        <li class="pagination__item"><a href="#">4</a></li>
-        <li class="pagination__item"><a href="#">5</a></li>
-      </ul>
+    </ul>
+    <ul class="pagination" aria-label="Page navigation">
+      <li class="pagination__item"><a href="#">1</a></li>
+      <li class="pagination__item"><a href="#">2</a></li>
+      <li class="pagination__item"><a href="#">3</a></li>
+      <li class="pagination__item"><a href="#">4</a></li>
+      <li class="pagination__item"><a href="#">5</a></li>
+    </ul>
   </main>
   <footer class="footer">
     <div class="footer-social">
@@ -333,19 +334,20 @@
   </section>
 
   <template id="demo-product">
-      <li class="product__item">
-          <img class="product__img" src="img/product-8.jpg" width="20" height="20" alt="Product image">
-          <div class="product__description">
-            <h3 class="product__brand">Unknown</h3>
-            <p class="product__name">Type - 1</p>
-            <span class="product_price">$ 699.99</span>
-          </div>
-          <a class="btn product__btn" href="#">Request</a>
-        </li>
+    <li class="product__item">
+      <img class="product__img" src="img/product-8.jpg" width="20" height="20" alt="Product image">
+      <div class="product__description">
+        <h3 class="product__brand">Unknown</h3>
+        <p class="product__name">Type - 1</p>
+        <span class="product__price">$ 699.99</span>
+      </div>
+      <a class="btn product__btn" href="#">Request</a>
+    </li>
   </template>
 
+  <script src="js/demo-mock.js"></script>
   <script src="js/menu.js"></script>
-  <script src="js/modal.js"></script>
+  <!-- <script src="js/modal.js"></script> -->
   <script src="js/no-js.js"></script>
   <script src="js/util.js"></script>
 </body>

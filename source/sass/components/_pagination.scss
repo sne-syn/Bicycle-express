@@ -1,0 +1,13 @@
+.pagination {
+  list-style: none;
+}
+
+.pagination__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pagination__item a {
+  color: $color-light-black;
+  cursor: pointer;
+}

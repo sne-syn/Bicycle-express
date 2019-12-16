@@ -33,7 +33,7 @@
 }
 
 .nav.nav--opened.nav--closed {
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 .nav--opened .nav__toggle {
@@ -102,7 +102,6 @@
   }
 
   .nav--opened .nav__toggle {
-
     &::before,
     &::after {
       top: 18px;

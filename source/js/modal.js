@@ -1,7 +1,6 @@
 'use strict';
 
 (function () {
-
   var popup = document.querySelector('.modal');
   var overlay = document.querySelector('.modal__overlay');
   var subscribeButton = document.querySelector('.subscribe-form__btn');

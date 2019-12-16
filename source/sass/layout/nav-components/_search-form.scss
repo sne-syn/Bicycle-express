@@ -30,7 +30,7 @@
   width: 15px;
   height: 11px;
   font-size: 0;
-  background-image: url(../img/search.svg);
+  background-image: url("../img/search.svg");
   background-repeat: no-repeat;
   border: none;
   background-color: transparent;
@@ -45,7 +45,7 @@
 @media (min-width: $screen-width-XS) {
   .search-form {
     width: 140px;
-    right: calc(50vw - 270px)
+    right: calc(50vw - 270px);
   }
 }
 
@@ -58,7 +58,7 @@
   }
 
   .search-form__input {
-    padding: 0px 25px 0 6px;
+    padding: 0 25px 0 6px;
     font-size: 12px;
   }
 
@@ -102,7 +102,7 @@
   }
 
   .search-form__input {
-    padding: 0px 34px 0 10px;
+    padding: 0 34px 0 10px;
     font-size: 18px;
     letter-spacing: 1px;
   }

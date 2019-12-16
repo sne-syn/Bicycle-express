@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding-top: 115px;
   min-height: 300px;
-  background-image: url(../img/heading-photo-mobile.jpg);
+  background-image: url("../img/heading-photo-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: $color-secondary;
@@ -46,7 +46,7 @@
   .heading {
     padding-top: 185px;
     min-height: 455px;
-    background-image: url(../img/heading-photo-tablet.jpg);
+    background-image: url("../img/heading-photo-tablet.jpg");
   }
 
   .heading__text-img img {
@@ -74,7 +74,7 @@
     min-height: 600px;
     background-size: cover;
     background-position-y: -185px;
-    background-image: url(../img/heading-photo-desktop.jpg);
+    background-image: url("../img/heading-photo-desktop.jpg");
   }
 
   .heading__text-img {

@@ -5,25 +5,24 @@
 @import "base/base";
 @import "base/visually-hidden";
 @import "components/about-us";
-@import "components/buttons";
+@import "components/brands";
+@import "components/btn";
 @import "components/cards";
 @import "components/filter";
 @import "components/heading";
 @import "components/modal";
+@import "components/pagination";
+@import "components/product";
 @import "components/subscribe";
 @import "components/statistics-table";
-
 @import "layout/footer-components/contact";
 @import "layout/footer-components/footer";
 @import "layout/footer-components/timetable";
 @import "layout/footer-components/social";
-
 @import "layout/nav-components/menu";
 @import "layout/nav-components/nav";
 @import "layout/nav-components/search-form";
-
 @import "layout/header";
-
 @import "pages/shop";
 @import "pages/contact";
 @import "pages/demo";

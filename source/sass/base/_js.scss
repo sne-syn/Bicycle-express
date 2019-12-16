@@ -1,12 +1,11 @@
+.js .nav__toggle {
+  display: block;
+}
 
-  .js .nav__toggle {
-    display: block;
-  }
+.no-js .nav__toggle {
+  display: none;
+}
 
-  .no-js .nav__toggle {
-    display: none;
-  }
-
-  .no-js li.menu__item {
-    display: block;
-  }
+.no-js li.menu__item {
+  display: block;
+}

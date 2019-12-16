@@ -71,14 +71,10 @@
   }
 
   &::before {
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
 
   &::after {
-    -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
   }
 }
@@ -94,11 +90,8 @@
   &::before,
   &::after {
     background-color: $color-secondary-active;
-
   }
 }
-
-
 
 @media (min-width: $screen-width-L) {
   .modal__position {
