@@ -10,17 +10,23 @@
   var cardQuantity = 9;
   var cards = [];
 
+  var formatDollar = function (num) {
+    var p = num.toFixed(2).split(".");
+    return "$" + p[0].split("").reverse().reduce(function (acc, num, i, orig) {
+      return num == "-" ? acc : num + (i && !(i % 3) ? "." : "") + acc;
+    }, "") + "." + p[1];
+  };
+
   var createProductCard = function () {
     for (var i = 0; i < cardQuantity; i++) {
       cards.push({
         'photo': PHOTOS[i],
         'brand': BRAND_NAMES[i],
         'model': MODELS[i],
-        'price': '$ ' + PRICES[i]
+        'price': formatDollar(PRICES[i])
       });
     }
   };
-
   createProductCard();
 
   var renderProductCard = function (cards) {
@@ -44,6 +50,6 @@
       price.textContent = item.price;
     });
   };
-  renderProductCard(cards);
 
+  renderProductCard(cards);
 })();
