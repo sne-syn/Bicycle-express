@@ -398,7 +398,11 @@ a {
 
 .product__btn {
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 80px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #73ac82; }
 
 .subscribe {
   padding: 15px 30px;

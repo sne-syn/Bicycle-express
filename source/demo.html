@@ -72,7 +72,7 @@
         <li class="brands__item"><img alt="Logo «Pure Fix cycles»" src="img/logo-2.png" height="40" width="100"></li>
         <li class="brands__item"><img alt="Logo «Unknown Bike Company»" src="img/logo-3.png" height="40" width="100">
         </li>
-        <li class="brands__item"><img alt="Logo «Hold Fast»"src="img/logo-4.png" height="40" width="100"></li>
+        <li class="brands__item"><img alt="Logo «Hold Fast»" src="img/logo-4.png" height="40" width="100"></li>
         <li class="brands__item"><img alt="Logo «Felt bicycles»" src="img/logo-5.png" height="40" width="100">
         </li>
         <li class="brands__item"><img alt="Logo «Surly»" src="img/logo-6.png" height="40" width="100"></li>
@@ -175,7 +175,7 @@
       </li>
     </ul>
     <ul class="pagination" aria-label="Page navigation">
-      <li class="pagination__item"><a href="#">1</a></li>
+      <li class="pagination__item pagination__item--active"><a href="#">1</a></li>
       <li class="pagination__item"><a href="#">2</a></li>
       <li class="pagination__item"><a href="#">3</a></li>
       <li class="pagination__item"><a href="#">4</a></li>
@@ -235,29 +235,32 @@
       </tr>
     </table>
   </footer>
-  <section class="modal">
-    <h3 class="modal__text-heading">Request Form</h3>
-    <form class="request-form form" action="https://echo.htmlacademy.ru" method="post">
-      <fieldset class="form__fieldset">
-        <ul class="form__list">
-          <li class="form__item"><label class="form__label" for="name">Name</label>
-            <input class="form__input" id="name" name="user-name" type="text"></li>
+  <section aria-label="popup" class="modal">
+    <div class="modal__position">
+      <div class="modal__wrapper">
+        <h3 class="modal__text-heading">Request Form</h3>
+        <form class="request-form form" action="https://echo.htmlacademy.ru" method="post">
+          <fieldset class="form__fieldset">
+            <ul class="form__list">
+              <li class="form__item"><label class="form__label" for="name">Name</label>
+                <input class="form__input" id="name" name="user-name" type="text"></li>
 
-          <li class="form__item"><label class="form__label" for="email">Email</label>
-            <input class="form__input" id="email" name="email" type="email"></li>
+              <li class="form__item"><label class="form__label" for="email">Email</label>
+                <input class="form__input" id="email" name="email" type="email"></li>
 
-          <li class="form__item"><label class="form__label" for="number">Phone Number</label>
-            <input class="form__input" id="number" name="number" type="tel"></li>
+              <li class="form__item"><label class="form__label" for="number">Phone Number</label>
+                <input class="form__input" id="number" name="number" type="tel"></li>
 
-          <li class="form__item"><label class="form__label" for="serial-number">Serial Number</label>
-            <input class="form__input" id="serial-number" name="subject" type="text" placeholder="WTU123AB4567C">
-          </li>
-        </ul>
-      </fieldset>
-      <button class="form__btn btn " type="submit">Request</button>
-
-    </form>
-    <button class="modal__close" title="Close" type="button">Close</button>
+              <li class="form__item"><label class="form__label" for="serial-number">Serial Number</label>
+                <input class="form__input" id="serial-number" name="subject" type="text" placeholder="WTU123AB4567C">
+              </li>
+            </ul>
+          </fieldset>
+          <button class="form__btn btn btn--green" type="submit">Request</button>
+        </form>
+        <button class="modal__close" title="Close" type="button">Close</button>
+      </div>
+    </div>
     <div class="modal__overlay"></div>
   </section>
 
@@ -269,13 +272,13 @@
         <p class="product__name">Type - 1</p>
         <span class="product__price">$ 699.99</span>
       </div>
-      <a class="btn product__btn" href="#">Request</a>
+      <a class="product__btn modal__open-btn btn btn--green" href="#">Request</a>
     </li>
   </template>
 
   <script src="js/demo-mock.js"></script>
   <script src="js/menu.js"></script>
-  <!-- <script src="js/modal.js"></script> -->
+  <script src="js/modal.js"></script>
   <script src="js/no-js.js"></script>
   <script src="js/util.js"></script>
 </body>
