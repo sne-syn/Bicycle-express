@@ -4,7 +4,6 @@
   var popup = document.querySelector('.modal');
   var overlay = document.querySelector('.modal__overlay');
   var openButtons = document.querySelectorAll('.modal__open-btn');
-
   var closeButton = popup.querySelector('.modal__close');
 
   var openPopup = function () {

@@ -215,7 +215,7 @@ a {
     min-height: 455px;
     background-image: url("../img/heading-photo-tablet.jpg"); }
   .heading__text-img img {
-    width: 460px;
+    width: 500px;
     height: 35px; } }
 
 @media (min-width: 991.98px) {
@@ -379,16 +379,24 @@ a {
 
 .pagination__item {
   display: inline-block;
-  vertical-align: middle; }
+  vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1px 5px; }
 
 .pagination__item a {
   color: #333333;
   cursor: pointer; }
 
+.pagination__item--active {
+  background-color: #73ac82; }
+
+.pagination__item--active a {
+  color: #ffffff; }
+
 .product__item {
   width: 300px;
-  display: block;
-  border: 1px solid #333333; }
+  display: block; }
 
 .product__img {
   width: 298px; }

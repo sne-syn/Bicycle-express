@@ -5,12 +5,20 @@
 .pagination__item {
   display: inline-block;
   vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1px 5px;
 }
 
 .pagination__item a {
   color: $color-light-black;
   cursor: pointer;
 }
-.pagination__item--active {
 
+.pagination__item--active {
+  background-color: $color-secondary;
+}
+
+.pagination__item--active a {
+  color: $color-white;
 }
