@@ -798,6 +798,9 @@ a {
   letter-spacing: 1.7px;
   color: #ffffff; }
 
+.menu__text.menu__text--active {
+  color: #eacb86; }
+
 .menu.menu--opened {
   padding-top: 10px; }
 
@@ -834,7 +837,7 @@ a {
   .menu__item {
     margin: 0;
     padding: 0; }
-  .menu__item a {
+  .menu__item .menu__link {
     margin: 0;
     padding: 15px 0;
     text-align: center; } }
@@ -844,7 +847,7 @@ a {
     padding: 0; } }
 
 @media (min-width: 1440px) {
-  .menu__item a {
+  .menu__item .menu__link {
     margin: 0;
     padding: 25px 0 15px;
     width: 100%; }

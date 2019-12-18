@@ -29,6 +29,10 @@
   color: $color-white;
 }
 
+.menu__text.menu__text--active {
+  color: $color-menu-hover;
+}
+
 .menu.menu--opened {
   padding-top: 10px;
 }
@@ -70,7 +74,7 @@
     padding: 0;
   }
 
-  .menu__item a {
+  .menu__item .menu__link {
     margin: 0;
     padding: 15px 0;
     text-align: center;
@@ -84,7 +88,7 @@
 }
 
 @media (min-width: $screen-width-XL) {
-  .menu__item a {
+  .menu__item .menu__link {
     margin: 0;
     padding: 25px 0 15px;
     width: 100%;
