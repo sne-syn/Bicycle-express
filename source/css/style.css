@@ -167,6 +167,9 @@ a {
     font-size: 22px; } }
 
 .brands__list {
+  display: none; }
+
+.brands__list {
   list-style: none; }
 
 .btn {
@@ -175,6 +178,26 @@ a {
   color: #ffffff;
   text-align: center;
   background-color: #73ac82; }
+
+.checkbox__legend {
+  text-decoration: underline; }
+
+.filter {
+  color: #333333; }
+
+.filter__heading {
+  font-size: 15px;
+  font-weight: 400; }
+
+.filter fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: none; }
 
 .heading {
   display: block;
@@ -251,6 +274,28 @@ a {
   .heading__text-img img {
     width: 900px;
     height: 55px; } }
+
+.intro-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15px 20px;
+  color: #ffffff;
+  background-color: #73ac82; }
+
+.intro-section__heading {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 16px; }
+
+.intro-section__text {
+  text-align: left;
+  font-size: 14px; }
 
 .modal__overlay {
   position: absolute;
